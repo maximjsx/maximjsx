@@ -3,7 +3,7 @@
 ### My current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - Discord bot
-- Android chat/social-media app
+- [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 
 ### You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)

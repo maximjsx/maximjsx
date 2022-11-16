@@ -11,5 +11,7 @@
 
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=radical&hide=contribs,prs)
 
+![Hypixel Level](https://gen.plancke.io/exp/MaximDe.png)
+
 - [SpigotMC](https://www.spigotmc.org/resources/authors/1620695/)
 - [Discord Server](https://discord.gg/gbqF32Qsv2)

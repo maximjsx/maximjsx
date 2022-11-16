@@ -1,8 +1,9 @@
 # Hi, my name is Maxim and i am a 16 year old java develeloper
 
 ### My current projects:
-- Android chat/social-media app
+- Minecraft Plugins
 - Discord bot
+- Android chat/social-media app
 
 ### You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)

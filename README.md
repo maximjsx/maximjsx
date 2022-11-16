@@ -1,6 +1,6 @@
-#Hi!
+# Hi!
 
-##My current projects:
+## My current projects:
 - Android chat/social media app
 - Discord bot
 

@@ -12,7 +12,7 @@
 
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=radical&hide=contribs,prs)
 
-# Minecraft
+# Minecraft (Ingame: MaximDe)
 ### Hypixel Stats:
 ![Hypixel Level](https://hypixel.paniek.de/signature/6d01fd6b43ec4294b4f700dd3c330648/general-tooltip)
 

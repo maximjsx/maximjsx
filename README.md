@@ -1,7 +1,7 @@
 # Hi, my name is Maxim and i am a 16 year old java develeloper
 
 ### My current projects:
-- Android chat/social media app
+- Android chat/social-media app
 - Discord bot
 
 ### You can contact me on Discord

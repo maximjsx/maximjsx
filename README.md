@@ -17,7 +17,7 @@
 ![Hypixel Level](https://hypixel.paniek.de/signature/6d01fd6b43ec4294b4f700dd3c330648/general-tooltip)
 
 ### Plugin development
-[![Foo](https://media.discordapp.net/attachments/895012337982001153/1042440858542280714/image.png)](https://www.spigotmc.org/resources/authors/1620695/)
+[![Foo](https://media.discordapp.net/attachments/895012337982001153/1042453946599473222/sasdasdasd.png)](https://www.spigotmc.org/resources/authors/1620695/)
 
 
 

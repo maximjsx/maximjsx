@@ -1,4 +1,4 @@
-# Hi, my name is maxim and i am a 16 year old java develeloper
+# Hi, my name is Maxim and i am a 16 year old java develeloper
 
 ### My current projects:
 - Android chat/social media app

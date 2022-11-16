@@ -1,18 +1,20 @@
 # Hi, my name is Maxim and i am a 16 year old java develeloper
 
-### My current projects:
+## Current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 
-### You can contact me on Discord
+## You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JavaDevMC&layout=compat&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=radical&hide=contribs,prs)
 
-# Minecraft (Ingame: MaximDe)
+# Minecraft
+(Ingame: MaximDe)
+
 ### Hypixel Stats:
 ![Hypixel Level](https://hypixel.paniek.de/signature/6d01fd6b43ec4294b4f700dd3c330648/general-tooltip)
 

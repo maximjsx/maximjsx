@@ -1,5 +1,6 @@
 # Current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
+- [Minecraft Client](https://discord.gg/ktuyvY2mam)
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 

@@ -1,6 +1,4 @@
-# Hi, my name is Maxim and i am a 16 year old java developer
-
-## Current projects:
+# Current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)

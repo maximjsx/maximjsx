@@ -22,5 +22,8 @@
 [![Foo](https://media.discordapp.net/attachments/895012337982001153/1042453946599473222/sasdasdasd.png)](https://www.spigotmc.org/resources/authors/1620695/)
 
 
+## Top Repos
+
+[![test](https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC1&repo=github-readme-streak-stats&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/JavaDevMC))
 
 - [Discord Server](https://discord.gg/gbqF32Qsv2)

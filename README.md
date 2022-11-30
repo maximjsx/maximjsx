@@ -24,6 +24,6 @@
 
 ## Top Repos
 
-[![test](https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC1&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/JavaDevMC))
+[![test](https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/JavaDevMC))
 
 - [Discord Server](https://discord.gg/gbqF32Qsv2)

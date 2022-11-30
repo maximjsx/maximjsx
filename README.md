@@ -1,13 +1,12 @@
 # Current projects:
-- [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
+- [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JavaDevMC&layout=compat&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
 - [Minecraft Client](https://discord.gg/ktuyvY2mam)
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 
 ## You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JavaDevMC&layout=compat&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=radical&hide=contribs,prs)
 

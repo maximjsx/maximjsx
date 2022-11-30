@@ -21,9 +21,22 @@
 ### Plugin development
 [![Foo](https://media.discordapp.net/attachments/895012337982001153/1042453946599473222/sasdasdasd.png)](https://www.spigotmc.org/resources/authors/1620695/)
 
+- [Discord Server](https://discord.gg/gbqF32Qsv2)
 
-## Top Repos
+## Top Repositories
 
 [![test](https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/JavaDevMC))
 
-- [Discord Server](https://discord.gg/gbqF32Qsv2)
+<a href="https://github.com/JavaDevMC/SimpleLobby">
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" />
+</a>
+<a href="https://github.com/JavaDevMC/Advanced-IP-Logger">
+  <img align="center" src="[https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat](https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=Advanced-IP-Logger&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true)" />
+</a>
+<a href="https://github.com/JavaDevMC/RandomMOTD">
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=RandomMOTD&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" />
+</a>
+<a href="https://github.com/JavaDevMC/SimpleMobRide">
+  <img align="center" src="[https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat](https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleMobRide&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true)" />
+</a>
+

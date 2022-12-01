@@ -1,3 +1,5 @@
+![visitors](https://visitor-badge.glitch.me/badge?page_id=114857048&left_color=green&right_color=red)
+
 # Current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - [Minecraft Client](https://discord.gg/ktuyvY2mam)

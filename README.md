@@ -18,7 +18,7 @@
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 
-# Top Repositories
+# Top repositories
 
 <a href="https://github.com/JavaDevMC/SimpleLobby">
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" />

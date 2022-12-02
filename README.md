@@ -1,4 +1,16 @@
-![visitors](https://visitor-badge.glitch.me/badge?page_id=114857048&left_color=green&right_color=red)
+<p  align="center">
+<img src="https://visitor-badge.glitch.me/badge?page_id=114857048&left_color=purple&right_color=blue" alt="visitor badge"/>       
+</p>
+
+<p align="center">
+  <a href="https://github.com/JavaDevMC">
+    <img src="https://github.com/JavaDevMC/images/blob/main/199138068-s0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png?raw=true" alt="Maxim" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/JavaDevMC">
+    <img src="https://readme-typing-svg.demolab.com/?lines=App%20developer%20;%20Java%20Kotlin%20C-Sharp;3%2B%20years%20of%20coding%20experience&font=Arial%20Code&center=true&width=440&height=45&color=6a00e4&vCenter=true&pause=1100&size=25" /></a>
+</p>
 
 # Current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)

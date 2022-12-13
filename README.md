@@ -14,7 +14,7 @@
 
 # Current projects:
 - [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
-- [Minecraft Client](https://discord.gg/ktuyvY2mam)
+- [MC Battle Royale](https://discord.gg/ZXvGT8uMD3)
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 

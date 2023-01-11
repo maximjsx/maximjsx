@@ -13,7 +13,7 @@
 </p>
 
 # Current projects:
-- [Minecraft Plugins](https://www.spigotmc.org/resources/authors/1620695/)
+- [MC Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - [MC Battle Royale](https://discord.gg/ZXvGT8uMD3)
 - Discord bot
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)

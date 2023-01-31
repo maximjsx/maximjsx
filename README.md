@@ -11,7 +11,7 @@
 # Current projects:
 - [MC Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - [MC Battle Royale](https://discord.gg/ZXvGT8uMD3)
-- Discord bot
+- Discord bots
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 
 # Top repositories

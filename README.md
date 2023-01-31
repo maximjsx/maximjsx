@@ -43,6 +43,3 @@
 ## You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)
 
-
-- [My plugins on SpigotMC](https://www.spigotmc.org/resources/authors/1620695/)
-- [Discord Server](https://discord.gg/gbqF32Qsv2)

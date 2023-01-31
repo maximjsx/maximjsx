@@ -1,7 +1,3 @@
-<p  align="center">
-<img src="https://visitor-badge.glitch.me/badge?page_id=114857048&left_color=purple&right_color=blue" alt="visitor badge"/>       
-</p>
-
 <p align="center">
   <a href="https://github.com/JavaDevMC">
     <img src="https://github.com/JavaDevMC/images/blob/main/199138068-s0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png?raw=true" alt="Maxim" /></a>

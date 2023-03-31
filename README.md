@@ -9,9 +9,9 @@
 </p>
 
 # Current projects:
+- [NextFight Network](https://nextfight.net)
+- [Streaming Bot](https://github.com/JavaDevMC/Discord-YouTube-Stream)
 - [MC Plugins](https://www.spigotmc.org/resources/authors/1620695/)
-- [MC Battle Royale](https://discord.gg/ZXvGT8uMD3)
-- Discord bots
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)
 
 # Top repositories

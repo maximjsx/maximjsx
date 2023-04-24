@@ -9,7 +9,7 @@
 </p>
 
 # Current projects:
-- [NextFight Network](https://nextfight.net)
+- [NextFight Network](https://discord.gg/ZXvGT8uMD3)
 - [Streaming Bot](https://github.com/JavaDevMC/Discord-YouTube-Stream)
 - [MC Plugins](https://www.spigotmc.org/resources/authors/1620695/)
 - [Android chat/social-media app](https://discord.gg/DnVDBPNydT)

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/JavaDevMC">
-    <img src="https://github.com/JavaDevMC/images/blob/main/199138068-s0a7b7b75-a024-4f00-803f-30a19c5d1b2d.png?raw=true" alt="Maxim" /></a>
+    <img src="https://media.discordapp.net/attachments/1052241511795937381/1119603800978759680/Neues_Projekt_-_2023-06-17T152529.047.png?width=1125&height=500" alt="Maxim" /></a>
 </p>
 
 <p align="center">

@@ -25,7 +25,7 @@
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=RandomMOTD&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <a href="https://github.com/JavaDevMC/SimpleMobRide">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleMobRide&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=true" />
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleMobRide&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 
 # Github stats

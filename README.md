@@ -41,7 +41,7 @@
 
 # Certificates
   <a href="https://www.sololearn.com/certificates/CC-RHXTSV1H">
-<img src="https://api2.sololearn.com/v2/certificates/CC-RHXTSV1H/image/jpg" width="400" style="border-radius: 20px"/>
+<img src="https://api2.sololearn.com/v2/certificates/CC-RHXTSV1H/image/jpg" width="400" style="border-radius: 15px"/>
     </a>
 <br>
 

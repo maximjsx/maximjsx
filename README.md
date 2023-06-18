@@ -40,7 +40,7 @@
 
 
 # Certificates
-<img src="https://www.sololearn.com/certificates/CC-RHXTSV1H" width="300" style="border-radius: 10px"/>
+<img src="https://api2.sololearn.com/v2/certificates/CC-RHXTSV1H/image/jpg" width="300" style="border-radius: 10px"/>
 <br>
 
 

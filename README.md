@@ -31,7 +31,7 @@
 # Github stats
 <p align="left">
   <a href="https://github.com/MaximFiedler">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavaDevMC&layout=compact&theme=radical&show_icons=true" alt="stats2" /></a>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavaDevMC&layout=compact&theme=tokyonight&show_icons=true" alt="stats2" /></a>
 </p>
 <p align="left">
   <a href="https://github.com/MaximFiedler">

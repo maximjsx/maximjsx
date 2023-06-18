@@ -38,6 +38,11 @@
     <img src="https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=radical&show_icons=true&layout=compact&hide=contribs,prs" alt="stats" /></a>
 </p>
 
+# Certificates
+
+![04a18de1-d164-4051-a8d4-fcd517e4c093](https://github.com/JavaDevMC/JavaDevMC/assets/114857048/629f23e4-cb30-4f03-abd0-0abd3ae8d27a)
+
+
 ## You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)
 

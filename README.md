@@ -38,9 +38,10 @@
     <img src="https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=radical&show_icons=true&layout=compact&hide=contribs,prs" alt="stats" /></a>
 </p>
 
-# Certificates
 
-![04a18de1-d164-4051-a8d4-fcd517e4c093](https://github.com/JavaDevMC/JavaDevMC/assets/114857048/629f23e4-cb30-4f03-abd0-0abd3ae8d27a)
+# Certificates
+<img src="https://www.sololearn.com/certificates/CC-RHXTSV1H" width="300" style="border-radius: 10px"/>
+<br>
 
 
 ## You can contact me on Discord

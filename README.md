@@ -15,27 +15,27 @@
 # Top repositories
 
 <a href="https://github.com/MaximFiedler/SimpleLobby">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=SimpleLobby&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <a href="https://github.com/MaximFiedler/Advanced-IP-Logger">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=Advanced-IP-Logger&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=Advanced-IP-Logger&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <br>
 <a href="https://github.com/MaximFiedler/RandomMOTD">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=RandomMOTD&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=RandomMOTD&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <a href="https://github.com/JavaDevMC/SimpleMobRide">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=JavaDevMC&repo=SimpleMobRide&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=SimpleMobRide&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 
 # Github stats
 <p align="left">
   <a href="https://github.com/MaximFiedler">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavaDevMC&layout=compact&theme=tokyonight&show_icons=true" alt="stats2" /></a>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaximFiedler&layout=compact&theme=tokyonight&show_icons=true" alt="stats2" /></a>
 </p>
 <p align="left">
   <a href="https://github.com/MaximFiedler">
-    <img src="https://github-readme-stats.vercel.app/api?username=JavaDevMC&theme=tokyonight&show_icons=true&layout=compact&hide=contribs,prs" alt="stats" /></a>
+    <img src="https://github-readme-stats.vercel.app/api?username=MaximFiedler&theme=tokyonight&show_icons=true&layout=compact&hide=contribs,prs" alt="stats" /></a>
 </p>
 
 

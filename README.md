@@ -21,10 +21,10 @@
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=Advanced-IP-Logger&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <br>
-<a href="https://github.com/MaximFiedler/RandomMOTD">
+<a href="https://github.com/MaximFiedler/AternosAPI">
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=RandomMOTD&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
-<a href="https://github.com/JavaDevMC/SimpleMobRide">
+<a href="https://github.com/JavaDevMC/PluginUtils">
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=MaximFiedler&repo=SimpleMobRide&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 

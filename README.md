@@ -38,12 +38,14 @@
     <img src="https://github-readme-stats.vercel.app/api?username=MaximFiedler&theme=tokyonight&show_icons=true&layout=compact&hide=contribs,prs" alt="stats" /></a>
 </p>
 
-
-# Certificates
+<details>
+  <summary>Certificates</summary>
+  
   <a href="https://www.sololearn.com/certificates/CC-RHXTSV1H">
 <img src="https://api2.sololearn.com/v2/certificates/CC-RHXTSV1H/image/jpg" width="400" style="border-radius: 15px"/>
     </a>
 <br>
+</details>
 
 
 ## You can contact me on Discord

@@ -54,3 +54,8 @@
 ## You can contact me on Discord
 [![Discord Presence](https://lanyard.cnrad.dev/api/759334613335670805)](https://discord.com/users/759334613335670805)
 
+Email:
+- Business
+  - info@maximfiedler.com
+- Private
+  - private@maximfiedler.com

@@ -8,10 +8,6 @@
     <img src="https://readme-typing-svg.demolab.com/?lines=Hi my name is Maxim%20;%20I%20like%20Java :D;Join my server%20nextfight.net :)&font=Arial%20Code&center=true&width=440&height=45&color=31D6F4&vCenter=true&pause=1100&size=25" /></a>
 </p>
 
-# Current projects:
-- [NextFight Network](https://discord.gg/ZXvGT8uMD3)
-- [MC Plugins](https://www.spigotmc.org/resources/authors/1620695/)
-
 # Some repositories
 
 <a href="https://github.com/MaximFiedler/FancyPhysics">

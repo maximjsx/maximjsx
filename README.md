@@ -31,7 +31,7 @@
 </p>
 <p align="left">
   <a href="https://github.com/MaximFiedler">
-    <img src="https://github-readme-stats.vercel.app/api?username=MaximFiedler&theme=tokyonight&show_icons=true&layout=compact&hide=contribs,prs" alt="stats" /></a>
+    <img src="https://github-readme-stats.vercel.app/api?username=MaximFiedler&theme=tokyonight&show_icons=true&layout=compact" alt="stats" /></a>
 </p>
 
 <details>

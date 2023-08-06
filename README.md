@@ -1,4 +1,5 @@
-![githubreadmeimage (1)](https://github.com/MaximFiedler/MaximFiedler/assets/114857048/85788af7-b163-4132-89d8-4cf5465b2d7d)
+![githubreadmeimage2 (1)](https://github.com/MaximFiedler/MaximFiedler/assets/114857048/4d382214-19f7-424c-bcd2-4ab01d04862a)
+
 
 
 <!--<p align="center">

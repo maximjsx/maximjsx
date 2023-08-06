@@ -1,4 +1,6 @@
-![githubreadmeimage2 (1)](https://github.com/MaximFiedler/MaximFiedler/assets/114857048/4d382214-19f7-424c-bcd2-4ab01d04862a)
+![githubreadmeimage2 (7)](https://github.com/MaximFiedler/MaximFiedler/assets/114857048/c3576ba8-ba6a-49f3-a558-dd8d02a7c1f4)
+![ezgif-3-c9709d1241](https://github.com/MaximFiedler/MaximFiedler/assets/114857048/008d764b-8358-4f68-af33-7cc7824017ef)
+
 
 
 

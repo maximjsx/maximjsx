@@ -1,12 +1,10 @@
-<p align="center">
-  <a href="https://github.com/MaximFiedler">
-    
-</p>
+![githubreadmeimage](https://github.com/MaximFiedler/MaximFiedler/assets/114857048/b3b689f5-c3f4-44e9-8fd4-1343fde84c84)
 
-<p align="center">
+
+<!--<p align="center">
   <a href="https://github.com/MaximFiedler">
     <img src="https://readme-typing-svg.demolab.com/?lines=Hi my name is Maxim%20;%20I%20like%20Java :D;Join my server%20nextfight.net :)&font=Arial%20Code&center=true&width=440&height=45&color=31D6F4&vCenter=true&pause=1100&size=25" /></a>
-</p>
+</p>-->
 
 # Some repositories
 

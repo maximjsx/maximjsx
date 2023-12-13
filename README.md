@@ -16,11 +16,11 @@
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=NextFightNetwork&repo=NextApply&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <br>
-<a href="https://github.com/max1mde/code-compile-bot">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=code-compile-bot&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
+<a href="https://github.com/max1mde/HologramAPI">
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
-<a href="https://github.com/max1mde/about-me">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=about-me&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
+<a href="https://github.com/max1mde/RadioBot">
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=RadioBot&theme=react&bg_color=1F222E&title_color=31D6F4&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 
 

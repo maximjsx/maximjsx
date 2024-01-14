@@ -51,9 +51,3 @@
 
 <h2>Discord</h2>  
 <img src="https://lanyard.cnrad.dev/api/759334613335670805" alt="discord">
-
-<h2>Email</h2>  
-<b>Business</b>
-<p>info@maximfiedler.com</p>
-<b>Private</b>
-<p>private@maximfiedler.com</p>

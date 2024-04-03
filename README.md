@@ -44,14 +44,4 @@ https://www.spigotmc.org/resources/authors/1620695/
 <h2>Email</h2>  
 maxim@nextfight.net
 
-<details>
-  <summary>Certificates</summary>
-  
-  <a href="https://www.sololearn.com/certificates/CC-RHXTSV1H">
-<img src="https://api2.sololearn.com/v2/certificates/CC-RHXTSV1H/image/jpg" width="400"/>
-    </a>
-      <a href="https://www.sololearn.com/certificates/CC-O50CRXKE">
-<img src="https://api2.sololearn.com/v2/certificates/CC-O50CRXKE/image/jpg" width="400"/>
-    </a>
-<br>
-</details>
+

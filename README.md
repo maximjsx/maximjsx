@@ -1,10 +1,8 @@
 <p align="center">
   <a href="https://github.com/max1mde">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Hi my name is Maxim%20;%20I%20like%20Java :D;Join my server%20nextfight.net :)&font=Arial%20Code&center=true&width=440&height=45&color=31D6F4&vCenter=true&pause=1100&size=25" /></a>
+    <img src="https://readme-typing-svg.demolab.com/?lines=Hi my name is Maxim%20;%20Java%20on%20top!;Join my server%20nextfight.net&font=Arial%20Code&center=true&width=440&height=45&color=31D6F4&vCenter=true&pause=1100&size=25" /></a>
 </p>
 
-<h1>Languages & tools I use</h1>
-<img src="https://github.com/max1mde/max1mde/assets/114857048/d054117e-9631-4e53-b988-9530e9d62496">
 
 <div align="left">
 
@@ -35,6 +33,17 @@
 </p>
 </div>
 
+# My plugins
+https://www.spigotmc.org/resources/authors/1620695/
+
+<h1>Contact me</h1>
+
+<h2>Discord</h2>  
+<img src="https://lanyard.cnrad.dev/api/759334613335670805" alt="discord">
+
+<h2>Email</h2>  
+maxim@nextfight.net
+
 <details>
   <summary>Certificates</summary>
   
@@ -46,11 +55,3 @@
     </a>
 <br>
 </details>
-
-<h1>Contact me</h1>
-
-<h2>Discord</h2>  
-<img src="https://lanyard.cnrad.dev/api/759334613335670805" alt="discord">
-
-<h2>Email</h2>  
-maxim@nextfight.net

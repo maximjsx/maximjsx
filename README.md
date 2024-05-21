@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/max1mde">
-    <img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=30&duration=4000&pause=1000&color=8C63F7&center=true&vCenter=true&multiline=true&random=false&width=450&height=140&lines=Hi+my+name+is+Maxim;Looking+for+MC+plugins%3F;This+is+the+right+place." /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=30&duration=4600&color=8C63F7&center=true&multiline=true&random=false&width=749&height=305&lines=%D0%B7%D0%B4%D1%80.;My+name+is+Maxim;I+do+...+stuff%3F;%E2%80%8E+;DC+bots%2C+MC+plugins%2C;.....;%E2%80%8E+;I+guess+you+will+find+these+things+here" /></a>
 </p>
 
 <div align="left">

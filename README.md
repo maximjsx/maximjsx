@@ -33,7 +33,9 @@
 </div>
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-791798%20lines%20of%20code-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-92-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-791803%20lines%20of%20code-blue)
 
 📊 **This Week I Spent My Time On** 
 

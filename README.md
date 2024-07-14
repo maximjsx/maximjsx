@@ -32,6 +32,9 @@
 </p>
 </div>
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 # My plugins
 https://www.spigotmc.org/resources/authors/1620695/
 

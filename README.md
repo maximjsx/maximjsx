@@ -39,7 +39,7 @@
 
 **🐱 My Github Data** 
 
-> 🏆 531 Contributions in the Year 2024
+> 🏆 533 Contributions in the Year 2024
  > 
 > 📦 834.3 kB Used in Github's Storage 
  > 
@@ -49,8 +49,6 @@
  > 
 > 🔑 52 Private Repositories  
  > 
-
-
 📊 **This Week I Spent My Time On** 
 
 ```text

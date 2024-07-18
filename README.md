@@ -35,17 +35,17 @@
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-151-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-791803%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-791509%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 533 Contributions in the Year 2024
+> 🏆 534 Contributions in the Year 2024
  > 
 > 📦 834.3 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
-> 📜 60 Public Repositories 
+> 📜 58 Public Repositories 
  > 
 > 🔑 52 Private Repositories  
  > 
@@ -53,25 +53,25 @@
 
 ```text
 💬 Programming Languages: 
-JavaScript               5 hrs 33 mins       ███████████░░░░░░░░░░░░░░   45.39% 
-Java                     4 hrs 28 mins       █████████░░░░░░░░░░░░░░░░   36.54% 
-Kotlin                   33 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.6% 
-Groovy                   26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.55% 
-Gradle                   25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.54%
+JavaScript               5 hrs 43 mins       ██████████░░░░░░░░░░░░░░░   42.71% 
+Java                     5 hrs 30 mins       ██████████░░░░░░░░░░░░░░░   41.13% 
+Kotlin                   34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.23% 
+Groovy                   26 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.34% 
+Gradle                   26 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.28%
 
 🔥 Editors: 
-IntelliJ IDEA            6 hrs 14 mins       ████████████░░░░░░░░░░░░░   51.02% 
-VS Code                  5 hrs 59 mins       ████████████░░░░░░░░░░░░░   48.98%
+IntelliJ IDEA            7 hrs 14 mins       █████████████░░░░░░░░░░░░   53.99% 
+VS Code                  6 hrs 10 mins       ███████████░░░░░░░░░░░░░░   46.01%
 
 🐱‍💻 Projects: 
-Discord Bot              5 hrs 59 mins       ████████████░░░░░░░░░░░░░   48.98% 
-BasePlugin               3 hrs 45 mins       ███████░░░░░░░░░░░░░░░░░░   30.67% 
-BetterChatBubbles        55 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   7.59% 
-Backend-JLib             44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.03% 
-HologramAPI              20 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.77%
+Discord Bot              6 hrs 9 mins        ███████████░░░░░░░░░░░░░░   46.01% 
+BasePlugin               4 hrs 30 mins       ████████░░░░░░░░░░░░░░░░░   33.58% 
+Backend-JLib             44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.51% 
+AbducteeAPI             40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.09% 
+BetterChatBubbles        29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.62%
 
 💻 Operating System: 
-Windows                  12 hrs 14 mins      █████████████████████████   100.0%
+Windows                  13 hrs 24 mins      █████████████████████████   100.0%
 
 ```
 
@@ -88,7 +88,7 @@ Python                   3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 16/07/2024
+ Last Updated on 18/07/2024
 <!--END_SECTION:waka-->
 
 # My plugins

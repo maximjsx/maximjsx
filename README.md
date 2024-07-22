@@ -53,25 +53,25 @@
 
 ```text
 💬 Programming Languages: 
-JavaScript               5 hrs 43 mins       ███████████████░░░░░░░░░░   62.55% 
-Java                     1 hr 44 mins        ████░░░░░░░░░░░░░░░░░░░░░   19.09% 
-Markdown                 24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.41% 
-Groovy                   20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.68% 
-Gradle                   19 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.55%
+JavaScript               2 hrs 4 mins        █████████████░░░░░░░░░░░░   51.61% 
+Java                     45 mins             ████░░░░░░░░░░░░░░░░░░░░░   18.88% 
+Groovy                   20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   8.4% 
+Gradle                   19 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   8.09% 
+Bash                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.64%
 
 🔥 Editors: 
-VS Code                  6 hrs 10 mins       ████████████████░░░░░░░░░   67.39% 
-IntelliJ IDEA            2 hrs 59 mins       ████████░░░░░░░░░░░░░░░░░   32.61%
+VS Code                  2 hrs 25 mins       ███████████████░░░░░░░░░░   60.49% 
+IntelliJ IDEA            1 hr 35 mins        ██████████░░░░░░░░░░░░░░░   39.51%
 
 🐱‍💻 Projects: 
-Discord Bot              6 hrs 9 mins        ████████████████░░░░░░░░░   67.38% 
-BasePlugin               1 hr 53 mins        █████░░░░░░░░░░░░░░░░░░░░   20.59% 
-AbducteeAPI             40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   7.45% 
-BetterChatBubbles        14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.66% 
-Backend-JLib             8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.51%
+Discord Bot              2 hrs 25 mins       ███████████████░░░░░░░░░░   60.49% 
+AbducteeAPI             40 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.99% 
+BasePlugin               37 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.54% 
+BetterChatBubbles        14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.08% 
+BattleRoyale             2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.9%
 
 💻 Operating System: 
-Windows                  9 hrs 9 mins        █████████████████████████   100.0%
+Windows                  4 hrs               █████████████████████████   100.0%
 
 ```
 
@@ -88,7 +88,7 @@ Python                   3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 21/07/2024
+ Last Updated on 22/07/2024
 <!--END_SECTION:waka-->
 
 # My plugins

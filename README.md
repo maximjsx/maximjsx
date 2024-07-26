@@ -41,7 +41,7 @@
 
 > 🏆 541 Contributions in the Year 2024
  > 
-> 📦 835.1 kB Used in Github's Storage 
+> 📦 835.0 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -53,24 +53,24 @@
 
 ```text
 💬 Programming Languages: 
-Java                     4 hrs 31 mins       ███████████████████████░░   94.22% 
-Kotlin                   9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   3.32% 
-Gradle                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.2% 
-GitIgnore file           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.59% 
-YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.43%
+Java                     5 hrs 30 mins       ███████████████████████░░   92.65% 
+Kotlin                   9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   2.69% 
+GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.52% 
+Gradle                   5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.51% 
+Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.14%
 
 🔥 Editors: 
-IntelliJ IDEA            4 hrs 48 mins       █████████████████████████   100.0%
+IntelliJ IDEA            5 hrs 56 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-BasePlugin               3 hrs 12 mins       ████████████████░░░░░░░░░   66.61% 
-LatinToCyrilic           1 hr 18 mins        ██████░░░░░░░░░░░░░░░░░░░   27.1% 
-LatinToCyrillic          11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.11% 
-BetterChatBubbles        4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.59% 
-Unknown Project          1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.59%
+BasePlugin               3 hrs 30 mins       ██████████████░░░░░░░░░░░   59.07% 
+LatinToCyrilic           1 hr 18 mins        █████░░░░░░░░░░░░░░░░░░░░   21.91% 
+EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.47% 
+LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.32% 
+AbducteeAPI             5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.46%
 
 💻 Operating System: 
-Windows                  4 hrs 48 mins       █████████████████████████   100.0%
+Windows                  5 hrs 56 mins       █████████████████████████   100.0%
 
 ```
 
@@ -87,7 +87,7 @@ CSS                      2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 25/07/2024
+ Last Updated on 26/07/2024
 <!--END_SECTION:waka-->
 
 # My plugins

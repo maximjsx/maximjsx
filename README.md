@@ -53,24 +53,24 @@
 
 ```text
 💬 Programming Languages: 
-Java                     5 hrs 30 mins       ███████████████████████░░   92.65% 
-Kotlin                   9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   2.69% 
-GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.52% 
-Gradle                   5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.51% 
-Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.14%
+Java                     5 hrs 16 mins       ███████████████████████░░   94.91% 
+GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.63% 
+Gradle                   5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.62% 
+Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.22% 
+YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.37%
 
 🔥 Editors: 
-IntelliJ IDEA            5 hrs 56 mins       █████████████████████████   100.0%
+IntelliJ IDEA            5 hrs 33 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-BasePlugin               3 hrs 30 mins       ██████████████░░░░░░░░░░░   59.07% 
-LatinToCyrilic           1 hr 18 mins        █████░░░░░░░░░░░░░░░░░░░░   21.91% 
-EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.47% 
-LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.32% 
-AbducteeAPI             5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.46%
+BasePlugin               3 hrs 7 mins        ██████████████░░░░░░░░░░░   56.25% 
+LatinToCyrilic           1 hr 18 mins        █████░░░░░░░░░░░░░░░░░░░░   23.42% 
+EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.33% 
+LatinToCyrillic          11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.55% 
+AbducteeAPI             5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.56%
 
 💻 Operating System: 
-Windows                  5 hrs 56 mins       █████████████████████████   100.0%
+Windows                  5 hrs 33 mins       █████████████████████████   100.0%
 
 ```
 
@@ -87,7 +87,7 @@ CSS                      2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 26/07/2024
+ Last Updated on 27/07/2024
 <!--END_SECTION:waka-->
 
 # My plugins

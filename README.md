@@ -35,42 +35,42 @@
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-151-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-792918%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793100%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 541 Contributions in the Year 2024
+> 🏆 544 Contributions in the Year 2024
  > 
-> 📦 835.0 kB Used in Github's Storage 
+> 📦 834.9 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
-> 📜 59 Public Repositories 
+> 📜 58 Public Repositories 
  > 
-> 🔑 53 Private Repositories  
+> 🔑 52 Private Repositories  
  > 
 📊 **This Week I Spent My Time On** 
 
 ```text
 💬 Programming Languages: 
-Java                     5 hrs 16 mins       ███████████████████████░░   94.91% 
-GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.63% 
-Gradle                   5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.62% 
-Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.22% 
-YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.37%
+Java                     5 hrs 2 mins        ███████████████████████░░   94.78% 
+GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.7% 
+Gradle                   5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.69% 
+Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.27% 
+YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.38%
 
 🔥 Editors: 
-IntelliJ IDEA            5 hrs 33 mins       █████████████████████████   100.0%
+IntelliJ IDEA            5 hrs 19 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-BasePlugin               3 hrs 7 mins        ██████████████░░░░░░░░░░░   56.25% 
-LatinToCyrilic           1 hr 18 mins        █████░░░░░░░░░░░░░░░░░░░░   23.42% 
-EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.33% 
-LatinToCyrillic          11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.55% 
-AbducteeAPI             5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.56%
+BasePlugin               2 hrs 54 mins       █████████████░░░░░░░░░░░░   54.6% 
+LatinToCyrilic           1 hr 18 mins        ██████░░░░░░░░░░░░░░░░░░░   24.49% 
+EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.94% 
+LatinToCyrillic          11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.71% 
+AbducteeAPI             5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.63%
 
 💻 Operating System: 
-Windows                  5 hrs 33 mins       █████████████████████████   100.0%
+Windows                  5 hrs 19 mins       █████████████████████████   100.0%
 
 ```
 

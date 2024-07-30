@@ -33,7 +33,7 @@
 </div>
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-51-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793119%20lines%20of%20code-blue)
 
@@ -53,24 +53,24 @@
 
 ```text
 💬 Programming Languages: 
-Java                     8 hrs 2 mins        ███████████████████████░░   94.43% 
-Gradle                   12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.42% 
-GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.06% 
-Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.94% 
-Kotlin                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.68%
+Java                     6 hrs 22 mins       ███████████████████████░░   93.19% 
+Gradle                   12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.01% 
+GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.32% 
+Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.17% 
+Kotlin                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.84%
 
 🔥 Editors: 
-IntelliJ IDEA            8 hrs 30 mins       █████████████████████████   100.0%
+IntelliJ IDEA            6 hrs 50 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-BasePlugin               5 hrs 3 mins        ██████████████░░░░░░░░░░░   59.44% 
-LatinToCyrilic           1 hr 18 mins        ███░░░░░░░░░░░░░░░░░░░░░░   15.3% 
-AbducteeAPI             1 hr 4 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.67% 
-EntitySize               44 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   8.71% 
-LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.32%
+BasePlugin               3 hrs 23 mins       ████████████░░░░░░░░░░░░░   49.51% 
+LatinToCyrilic           1 hr 18 mins        ████░░░░░░░░░░░░░░░░░░░░░   19.05% 
+AbducteeAPI             1 hr 4 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.78% 
+EntitySize               44 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   10.85% 
+LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.89%
 
 💻 Operating System: 
-Windows                  8 hrs 30 mins       █████████████████████████   100.0%
+Windows                  6 hrs 50 mins       █████████████████████████   100.0%
 
 ```
 
@@ -87,7 +87,7 @@ CSS                      2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 29/07/2024
+ Last Updated on 30/07/2024
 <!--END_SECTION:waka-->
 
 # My plugins

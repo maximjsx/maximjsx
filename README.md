@@ -35,11 +35,11 @@
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793119%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793221%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 544 Contributions in the Year 2024
+> 🏆 545 Contributions in the Year 2024
  > 
 > 📦 834.9 kB Used in Github's Storage 
  > 
@@ -53,24 +53,24 @@
 
 ```text
 💬 Programming Languages: 
-Java                     6 hrs 22 mins       ███████████████████████░░   93.19% 
-Gradle                   12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.01% 
-GitIgnore file           5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.32% 
-Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.17% 
-Kotlin                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.84%
+Java                     5 hrs 17 mins       ███████████████████████░░   92.93% 
+Gradle                   10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.22% 
+Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.38% 
+GitIgnore file           3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.11% 
+Kotlin                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.95%
 
 🔥 Editors: 
-IntelliJ IDEA            6 hrs 50 mins       █████████████████████████   100.0%
+IntelliJ IDEA            5 hrs 41 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-BasePlugin               3 hrs 23 mins       ████████████░░░░░░░░░░░░░   49.51% 
-LatinToCyrilic           1 hr 18 mins        ████░░░░░░░░░░░░░░░░░░░░░   19.05% 
-AbducteeAPI             1 hr 4 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.78% 
-EntitySize               44 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   10.85% 
-LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.89%
+BasePlugin               2 hrs 27 mins       ██████████░░░░░░░░░░░░░░░   43.3% 
+LatinToCyrilic           1 hr 9 mins         █████░░░░░░░░░░░░░░░░░░░░   20.47% 
+AbducteeAPI             1 hr 4 mins         ████░░░░░░░░░░░░░░░░░░░░░   18.94% 
+EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.02% 
+LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.47%
 
 💻 Operating System: 
-Windows                  6 hrs 50 mins       █████████████████████████   100.0%
+Windows                  5 hrs 41 mins       █████████████████████████   100.0%
 
 ```
 

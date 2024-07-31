@@ -33,13 +33,13 @@
 </div>
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-12-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793221%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793046%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 545 Contributions in the Year 2024
+> 🏆 550 Contributions in the Year 2024
  > 
 > 📦 834.9 kB Used in Github's Storage 
  > 
@@ -87,7 +87,7 @@ CSS                      2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 30/07/2024
+ Last Updated on 31/07/2024
 <!--END_SECTION:waka-->
 
 # My plugins

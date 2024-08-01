@@ -39,7 +39,7 @@
 
 **🐱 My Github Data** 
 
-> 🏆 550 Contributions in the Year 2024
+> 🏆 0 Contributions in the Year 2024
  > 
 > 📦 834.9 kB Used in Github's Storage 
  > 
@@ -53,24 +53,23 @@
 
 ```text
 💬 Programming Languages: 
-Java                     5 hrs 17 mins       ███████████████████████░░   92.93% 
-Gradle                   10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.22% 
-Groovy                   4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.38% 
-GitIgnore file           3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.11% 
-Kotlin                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.95%
+Java                     5 hrs 8 mins        ██████████████████████░░░   90.81% 
+Groovy                   14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.28% 
+Gradle                   8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   2.62% 
+GitIgnore file           3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.1% 
+Kotlin                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.96%
 
 🔥 Editors: 
-IntelliJ IDEA            5 hrs 41 mins       █████████████████████████   100.0%
+IntelliJ IDEA            5 hrs 39 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-BasePlugin               2 hrs 27 mins       ██████████░░░░░░░░░░░░░░░   43.3% 
-LatinToCyrilic           1 hr 9 mins         █████░░░░░░░░░░░░░░░░░░░░   20.47% 
-AbducteeAPI             1 hr 4 mins         ████░░░░░░░░░░░░░░░░░░░░░   18.94% 
-EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.02% 
-LatinToCyrillic          11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.47%
+BasePlugin               2 hrs 27 mins       ███████████░░░░░░░░░░░░░░   43.58% 
+AbducteeAPI             2 hrs 24 mins       ██████████░░░░░░░░░░░░░░░   42.52% 
+EntitySize               44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.11% 
+BetterChatBubbles        2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.8%
 
 💻 Operating System: 
-Windows                  5 hrs 41 mins       █████████████████████████   100.0%
+Windows                  5 hrs 39 mins       █████████████████████████   100.0%
 
 ```
 
@@ -87,7 +86,7 @@ CSS                      2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 31/07/2024
+ Last Updated on 01/08/2024
 <!--END_SECTION:waka-->
 
 # My plugins

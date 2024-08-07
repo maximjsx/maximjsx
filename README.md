@@ -53,25 +53,25 @@
 
 ```text
 💬 Programming Languages: 
-Java                     1 hr 42 mins        ███████████░░░░░░░░░░░░░░   46.39% 
-JavaScript               1 hr 38 mins        ███████████░░░░░░░░░░░░░░   44.71% 
-Groovy                   9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   4.51% 
-JSON                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.57% 
-Git Config               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.27%
+Java                     1 hr 47 mins        ███████████░░░░░░░░░░░░░░   47.49% 
+JavaScript               1 hr 38 mins        ██████████░░░░░░░░░░░░░░░   43.3% 
+Groovy                   11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.96% 
+JSON                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.52% 
+Git Config               2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   1.23%
 
 🔥 Editors: 
-IntelliJ IDEA            1 hr 52 mins        ████████████░░░░░░░░░░░░░   51.07% 
-VS Code                  1 hr 47 mins        ████████████░░░░░░░░░░░░░   48.93%
+IntelliJ IDEA            1 hr 59 mins        █████████████░░░░░░░░░░░░   52.61% 
+VS Code                  1 hr 47 mins        ███████████░░░░░░░░░░░░░░   47.39%
 
 🐱‍💻 Projects: 
-PublicAPI                1 hr 45 mins        ████████████░░░░░░░░░░░░░   48.0% 
-AbducteeAPI             1 hr 19 mins        █████████░░░░░░░░░░░░░░░░   36.15% 
-Backend-JLib             16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   7.49% 
-Backend                  16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   7.42% 
-MC-API                   1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.81%
+PublicAPI                1 hr 45 mins        ███████████░░░░░░░░░░░░░░   46.48% 
+AbducteeAPI             1 hr 19 mins        ████████░░░░░░░░░░░░░░░░░   35.01% 
+Backend-JLib             16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   7.26% 
+Backend                  16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   7.18% 
+BetterChatBubbles        7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   3.16%
 
 💻 Operating System: 
-Windows                  3 hrs 40 mins       █████████████████████████   100.0%
+Windows                  3 hrs 47 mins       █████████████████████████   100.0%
 
 ```
 
@@ -88,7 +88,7 @@ CSS                      2 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 06/08/2024
+ Last Updated on 07/08/2024
 <!--END_SECTION:waka-->
 
 # My plugins

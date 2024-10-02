@@ -35,17 +35,17 @@
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-793281%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-794249%20lines%20of%20code-blue)
 
 **🐱 My Github Data** 
 
-> 🏆 600 Contributions in the Year 2024
+> 🏆 605 Contributions in the Year 2024
  > 
-> 📦 833.1 kB Used in Github's Storage 
+> 📦 833.2 kB Used in Github's Storage 
  > 
 > 💼 Opted to Hire
  > 
-> 📜 58 Public Repositories 
+> 📜 59 Public Repositories 
  > 
 > 🔑 51 Private Repositories  
  > 
@@ -70,17 +70,17 @@ Windows                  8 mins              ███████████�
 **I Mostly Code in Java** 
 
 ```text
-Java                     64 repos            ██████████████████░░░░░░░   71.91% 
-JavaScript               10 repos            ██░░░░░░░░░░░░░░░░░░░░░░░   11.24% 
-TypeScript               7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   7.87% 
-Python                   3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.37% 
-CSS                      2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.25%
+Java                     64 repos            █████████████████░░░░░░░░   71.11% 
+JavaScript               11 repos            ███░░░░░░░░░░░░░░░░░░░░░░   12.22% 
+TypeScript               7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   7.78% 
+Python                   3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.33% 
+CSS                      2 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.22%
 
 ```
 
 
 
- Last Updated on 01/10/2024
+ Last Updated on 02/10/2024
 <!--END_SECTION:waka-->
 
 # My plugins

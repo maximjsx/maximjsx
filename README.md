@@ -33,7 +33,7 @@
 </div>
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-8-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-794902%20lines%20of%20code-blue)
 
@@ -88,7 +88,7 @@ CSS                      3 repos             ░░░░░░░░░░░�
 
 
 
- Last Updated on 18/10/2024
+ Last Updated on 19/10/2024
 <!--END_SECTION:waka-->
 
 # My plugins

@@ -10,7 +10,7 @@
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <a href="https://github.com/max1mde/ChatBubblesAPI">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=NextFightNetwork&repo=ChatBubblesAPI&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 <br>
 <a href="https://github.com/max1mde/HologramAPI">

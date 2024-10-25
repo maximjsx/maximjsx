@@ -24,10 +24,6 @@
 <h1>Stats</h1>
 <p>
   <a href="https://github.com/max1mde">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=max1mde&layout=compact&theme=tokyonight&show_icons=true" alt="stats2" /></a>
-</p>
-<p>
-  <a href="https://github.com/max1mde">
     <img src="https://github-readme-stats.vercel.app/api?username=max1mde&theme=tokyonight&show_icons=true&layout=compact" alt="stats" /></a>
 </p>
 </div>

@@ -16,8 +16,8 @@
 <a href="https://github.com/max1mde/HologramAPI">
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
-<a href="https://github.com/max1mde/PluginSimplifier">
-  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=PluginSimplifier&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
+<a href="https://github.com/max1mde/FIX">
+  <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 
 

@@ -30,19 +30,13 @@ And submit the issue.
 
 ## Latest users
 <!--START_SECTION:users-->
-| Name | Profile Picture | Date |
-| ---- | ---------------- | ---- |
-| [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-09 |
-| Name | Profile Picture | Date |
-| ---- | ---------------- | ---- |
+
 <!--END_SECTION:users-->
 
 <details>
 <summary>Older users</summary>
 
 <!--START_SECTION:old_users-->
-| Name | Profile Picture | Date |
-| ---- | ---------------- | ---- |
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
 | [User4](https://github.com/User4) | <img src="https://avatars.githubusercontent.com/User4" width="30" height="30" /> | 2024-11-06 |

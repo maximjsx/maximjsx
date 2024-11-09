@@ -32,7 +32,15 @@ And submit the issue.
 <!--START_SECTION:users-->
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
+| [MaximFiedler](https://github.com/MaximFiedler) | <img src="https://avatars.githubusercontent.com/MaximFiedler" width="30" height="30" /> | 2024-11-09 |
+| Name | Profile Picture | Date |
+| ---- | ---------------- | ---- |
 | [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-09 |
+<details><summary>Older users</summary>
+<!--START_SECTION:old_users-->
+| Name | Profile Picture | Date |
+| ---- | ---------------- | ---- |
+
 <!--END_SECTION:users-->
 
 <details>

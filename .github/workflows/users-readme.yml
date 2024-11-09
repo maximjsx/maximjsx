@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Get issue data
       if: ${{ startsWith(github.event.issue.title, 'Submit yourself') }}
@@ -42,7 +42,7 @@ jobs:
             print $0
             inside_users_section = 1
             user_count = 0
-            # Check if the headers are already present, if not, add them
+            # Check if headers are already present, if not, add them
             if (!header_added) {
               print "| Name | Profile Picture | Date |"
               print "| ---- | ---------------- | ---- |"
@@ -59,7 +59,7 @@ jobs:
               inside_old_users_section = 1
               print "<details><summary>Older users</summary>"
               print "<!--START_SECTION:old_users-->"
-              # Check if the headers are already present in the old users section, if not, add them
+              # Check if headers are already present in the old users section, if not, add them
               if (!old_user_header_added) {
                 print "| Name | Profile Picture | Date |"
                 print "| ---- | ---------------- | ---- |"
@@ -118,9 +118,18 @@ jobs:
         git commit -m "Update README with new user"
         git push
 
-    - name: Close issue
+    - name: Close issue with a comment
       run: |
         ISSUE_NUMBER=${{ github.event.issue.number }}
+        COMMENT_BODY=$(if [ "${{ env.duplicate }}" == "true" ]; then echo "You are already on the list."; else echo "You have been added."; fi)
+        
+        # Close the issue with a comment
+        curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -d "{\"body\":\"$COMMENT_BODY\"}" \
+          https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER/comments
+
+        # Close the issue itself
         curl -X PATCH -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
           https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER \

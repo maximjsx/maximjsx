@@ -30,6 +30,9 @@ And submit the issue.
 
 ### Latest users
 <!--START_SECTION:users-->
+| Name | Profile Picture | Date |
+| ---- | ---------------- | ---- |
+| [MaximFiedler](https://github.com/MaximFiedler) | <img src="https://avatars.githubusercontent.com/MaximFiedler" width="30" height="30" /> | 2024-11-09 |
 
 <!--END_SECTION:users-->
 
@@ -37,6 +40,8 @@ And submit the issue.
 <summary>Older users</summary>
   
 <!--START_SECTION:old_users-->
+| Name | Profile Picture | Date |
+| ---- | ---------------- | ---- |
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
 | [User4](https://github.com/User4) | <img src="https://avatars.githubusercontent.com/User4" width="30" height="30" /> | 2024-11-06 |

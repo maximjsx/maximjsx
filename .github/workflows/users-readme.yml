@@ -33,13 +33,16 @@ jobs:
       run: |
         new_user_row="| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |"
 
+        # Update the README to add the new user in the latest section and manage the older users section
         awk -v new_user_row="$new_user_row" '
-          BEGIN { inside_users_section = 0; inside_old_users_section = 0; user_count = 0; moved_old_user = 0; }
+          BEGIN { inside_users_section = 0; inside_old_users_section = 0; user_count = 0; moved_old_user = 0; header_added = 0; old_user_header_added = 0; }
 
+          # Find the start and end of the latest users section
           /<!--START_SECTION:users-->/ {
             print $0
             inside_users_section = 1
             user_count = 0
+            # Check if the headers are already present, if not, add them
             if (!header_added) {
               print "| Name | Profile Picture | Date |"
               print "| ---- | ---------------- | ---- |"
@@ -51,10 +54,12 @@ jobs:
 
           /<!--END_SECTION:users-->/ {
             inside_users_section = 0
+            # If more than 3 users, move the 4th user to old users section
             if (user_count >= 3 && !moved_old_user) {
               inside_old_users_section = 1
               print "<details><summary>Older users</summary>"
               print "<!--START_SECTION:old_users-->"
+              # Check if the headers are already present in the old users section, if not, add them
               if (!old_user_header_added) {
                 print "| Name | Profile Picture | Date |"
                 print "| ---- | ---------------- | ---- |"
@@ -67,18 +72,21 @@ jobs:
             next
           }
 
+          # Track and count users within the latest users section
           inside_users_section && user_count < 3 {
             user_count++
             print $0
             next
           }
 
+          # Store the oldest user (4th) to be moved to old users
           inside_users_section && user_count == 3 {
             old_user_row = $0
             user_count++
             next
           }
 
+          # Handle the start of older users section
           /<!--START_SECTION:old_users-->/ {
             print $0
             if (!old_user_header_added) {
@@ -90,12 +98,14 @@ jobs:
             next
           }
 
+          # End of older users section
           /<!--END_SECTION:old_users-->/ {
             inside_old_users_section = 0
             print $0
             next
           }
 
+          # Print lines as is if outside the specified sections
           { print $0 }
         ' README.md > README.temp.md && mv README.temp.md README.md
 
@@ -108,8 +118,8 @@ jobs:
         git commit -m "Update README with new user"
         git push
 
-    - name: Close issue if processed
-      if: ${{ env.duplicate == 'false' }}
+    - name: Close issue if duplicate
+      if: ${{ env.duplicate == 'true' }}
       run: |
         ISSUE_NUMBER=${{ github.event.issue.number }}
         curl -X PATCH -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \

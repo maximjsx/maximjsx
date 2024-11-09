@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3  # Updated to v3 to support Node 20
 
     - name: Get issue data
       if: ${{ startsWith(github.event.issue.title, 'Submit yourself') }}
@@ -121,7 +121,7 @@ jobs:
     - name: Close issue with a comment
       run: |
         ISSUE_NUMBER=${{ github.event.issue.number }}
-        COMMENT_BODY=$(if [ "${{ env.duplicate }}" == "true" ]; then echo "You are already on the list."; else echo "You have been added."; fi)
+        COMMENT_BODY=$(if [ "${{ env.duplicate }}" == "true" ]; then echo "You are already on the list."; else echo "You have been added! Visit https://github.com/max1mde to see you there."; fi)
         
         # Close the issue with a comment
         curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \

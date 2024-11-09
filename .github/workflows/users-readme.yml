@@ -13,24 +13,34 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Get issue data
-      id: issue_data
+      if: ${{ startsWith(github.event.issue.title, 'Submit yourself') }}
       run: |
         echo "USER_NAME=${{ github.actor }}" >> $GITHUB_ENV
-        echo "USER_AVATAR=${{ github.actor }}_avatar" >> $GITHUB_ENV
+        echo "USER_AVATAR=https://avatars.githubusercontent.com/${{ github.actor }}" >> $GITHUB_ENV
         echo "USER_DATE=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
 
-    - name: Update README file
+    - name: Check for duplicates in README
+      id: check_duplicates
       run: |
-        #Fetch current README
+        if grep -q "\[${{ env.USER_NAME }}\](https://github.com/${{ env.USER_NAME }})" README.md; then
+          echo "duplicate=true" >> $GITHUB_ENV
+        else
+          echo "duplicate=false" >> $GITHUB_ENV
+
+    - name: Update README file
+      if: ${{ env.duplicate == 'false' }}
+      run: |
+        # Fetch current README and remove existing users section
         sed -i '/<!--START_SECTION:users-->/, /<!--END_SECTION:users-->/d' README.md
 
-        #Add the new user to the top of the list
-        echo "| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"https://avatars.githubusercontent.com/${{ env.USER_NAME }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |" >> README.md
+        # Add the new user to the top of the list with resized avatar
+        echo "| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |" >> README.md
 
-        #Move last user to older section if more than 3 users exist
+        # Move last user to older section if more than 3 users exist
         awk '/<!--START_SECTION:users-->/ { print; users++; next } { if (users >= 3) print "<details><summary>Older users</summary>" } { print } /<!--END_SECTION:users-->/ { print "</details>"; }' README.md > README.md.temp && mv README.md.temp README.md
 
     - name: Commit and push changes
+      if: ${{ env.duplicate == 'false' }}
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"

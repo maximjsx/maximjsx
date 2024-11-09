@@ -74,6 +74,6 @@ https://www.spigotmc.org/resources/authors/1620695/
 <img src="https://lanyard.cnrad.dev/api/759334613335670805" alt="discord">
 
 <h2>Email</h2>  
-maxim@nextfight.net
+ceo@nextfight.net
 
 

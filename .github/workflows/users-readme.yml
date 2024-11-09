@@ -118,8 +118,7 @@ jobs:
         git commit -m "Update README with new user"
         git push
 
-    - name: Close issue if duplicate
-      if: ${{ env.duplicate == 'true' }}
+    - name: Close issue
       run: |
         ISSUE_NUMBER=${{ github.event.issue.number }}
         curl -X PATCH -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \

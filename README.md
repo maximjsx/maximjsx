@@ -20,14 +20,6 @@
   <img align="center" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=react&bg_color=1F222E&title_color=8C63F7&hide_border=true&icon_color=F8D866&show_icons=true" />
 </a>
 
-
-<h1>Stats</h1>
-<p>
-  <a href="https://github.com/max1mde">
-    <img src="https://github-readme-stats.vercel.app/api?username=max1mde&theme=tokyonight&show_icons=true&layout=compact" alt="stats" /></a>
-</p>
-</div>
-
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-795394%20lines%20of%20code-blue)
 

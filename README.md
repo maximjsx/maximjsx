@@ -42,8 +42,6 @@ And submit the issue.
 <!--START_SECTION:old_users-->
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
-| Name | Profile Picture | Date |
-| ---- | ---------------- | ---- |
 | [User4](https://github.com/User4) | <img src="https://avatars.githubusercontent.com/User4" width="30" height="30" /> | 2024-11-06 |
 | [User5](https://github.com/User5) | <img src="https://avatars.githubusercontent.com/User5" width="30" height="30" /> | 2024-11-05 |
 <!--END_SECTION:old_users-->

@@ -28,17 +28,24 @@ jobs:
           echo "duplicate=false" >> $GITHUB_ENV
         fi
 
-    - name: Update README file
+    - name: Update README with latest user
       if: ${{ env.duplicate == 'false' }}
       run: |
-        # Fetch current README and remove existing users section
-        sed -i '/<!--START_SECTION:users-->/, /<!--END_SECTION:users-->/d' README.md
+        # Define the new user row to insert
+        new_user_row="| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |"
 
-        # Add the new user to the top of the list with resized avatar
-        echo "| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |" >> README.md
-
-        # Move last user to older section if more than 3 users exist
-        awk '/<!--START_SECTION:users-->/ { print; users++; next } { if (users >= 3) print "<details><summary>Older users</summary>" } { print } /<!--END_SECTION:users-->/ { print "</details>"; }' README.md > README.md.temp && mv README.md.temp README.md
+        # Insert new user in the correct section without removing other content
+        awk -v new_user_row="$new_user_row" '
+          BEGIN { inside_users_section = 0 }
+          /<!--START_SECTION:users-->/ {
+            print $0
+            inside_users_section = 1
+            print new_user_row
+            next
+          }
+          /<!--END_SECTION:users-->/ { inside_users_section = 0 }
+          !inside_users_section { print $0 }
+        ' README.md > README.temp.md && mv README.temp.md README.md
 
     - name: Commit and push changes
       if: ${{ env.duplicate == 'false' }}

@@ -25,7 +25,7 @@
 ## Verewige dich hier 
 (How you can add yourself to this readme)
 
-Just click [here](https://github.com/max1mde/issues/new?template=submit-yourself.md).
+Just click [here](https://github.com/max1mde/max1mde/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.).
 And submit the issue.
 
 ## Latest users

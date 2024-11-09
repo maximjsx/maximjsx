@@ -32,9 +32,7 @@ And submit the issue.
 <!--START_SECTION:users-->
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
-| [MaximFiedler](https://github.com/MaximFiedler) | <img src="https://avatars.githubusercontent.com/MaximFiedler" width="30" height="30" /> | 2024-11-09 |
-| [test](https://github.com/MaximFiedler) | <img src="https://avatars.githubusercontent.com/MaximFiedler" width="30" height="30" /> | 2024-11-09 |
-| [Gebuildet](https://github.com/Gebuildet) | <img src="https://avatars.githubusercontent.com/Gebuildet" width="30" height="30" /> | 2024-11-09 |
+
 <!--END_SECTION:users-->
 
 <details>
@@ -43,10 +41,7 @@ And submit the issue.
 <!--START_SECTION:old_users-->
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
-| [skibiditest](https://github.com/skibiditest) | <img src="https://avatars.githubusercontent.com/MaximFiedler" width="30" height="30" /> | 2024-11-09 |
-| [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-09 |
-| [User4](https://github.com/User4) | <img src="https://avatars.githubusercontent.com/User4" width="30" height="30" /> | 2024-11-06 |
-| [User5](https://github.com/User5) | <img src="https://avatars.githubusercontent.com/User5" width="30" height="30" /> | 2024-11-05 |
+
 <!--END_SECTION:old_users-->
 
 </details>

@@ -33,9 +33,9 @@ And submit the issue.
 <!--START_SECTION:users-->
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
-| [User1](https://github.com/User1) | ![User1](https://avatars.githubusercontent.com/User1) | 2024-11-09 |
-| [User2](https://github.com/User2) | ![User2](https://avatars.githubusercontent.com/User2) | 2024-11-08 |
-| [User3](https://github.com/User3) | ![User3](https://avatars.githubusercontent.com/User3) | 2024-11-07 |
+| [User1](https://github.com/User1) | <img src="https://avatars.githubusercontent.com/User1" width="30" height="30" /> | 2024-11-09 |
+| [User2](https://github.com/User2) | <img src="https://avatars.githubusercontent.com/User2" width="30" height="30" /> | 2024-11-08 |
+| [User3](https://github.com/User3) | <img src="https://avatars.githubusercontent.com/User3" width="30" height="30" /> | 2024-11-07 |
 <!--END_SECTION:users-->
 
 <details>
@@ -44,8 +44,8 @@ And submit the issue.
 <!--START_SECTION:old_users-->
 | Name | Profile Picture | Date |
 | ---- | ---------------- | ---- |
-| [User4](https://github.com/User4) | ![User4](https://avatars.githubusercontent.com/User4) | 2024-11-06 |
-| [User5](https://github.com/User5) | ![User5](https://avatars.githubusercontent.com/User5) | 2024-11-05 |
+| [User4](https://github.com/User4) | <img src="https://avatars.githubusercontent.com/User4" width="30" height="30" /> | 2024-11-06 |
+| [User5](https://github.com/User5) | <img src="https://avatars.githubusercontent.com/User5" width="30" height="30" /> | 2024-11-05 |
 <!--END_SECTION:old_users-->
 
 </details>

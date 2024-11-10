@@ -64,7 +64,7 @@ jobs:
           print $0
           inside_users = 1
           if (!header_printed) {
-            print "| Name | Profile Picture | Date |"
+            print "| Name | Picture | Date |"
             print "| ---- | ---------------- | ---- |"
             header_printed = 1
           }
@@ -96,7 +96,7 @@ jobs:
         /<!--START_SECTION:old_users-->/ {
           print $0
           inside_old = 1
-          print "| Name | Profile Picture | Date |"
+          print "| Name | Picture | Date |"
           print "| ---- | ---------------- | ---- |"
           if (user_count > 2) {
             print old_user
@@ -125,9 +125,18 @@ jobs:
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
+    
+        git pull --rebase origin main
+
         git add README.md
         git commit -m "Update README with new user"
-        git push
+    
+        git push || {
+          git pull --rebase origin main
+          git add README.md
+          git commit -m "Update README with new user"
+          git push
+        }
 
     - name: Close issue with a comment
       if: ${{ env.submittitle == 'true' }}

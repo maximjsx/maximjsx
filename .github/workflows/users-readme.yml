@@ -125,14 +125,20 @@ jobs:
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
+
+        git stash
     
         git pull --rebase origin main
-
+    
+        git stash pop
+    
         git add README.md
         git commit -m "Update README with new user"
     
         git push || {
+          git stash
           git pull --rebase origin main
+          git stash pop
           git add README.md
           git commit -m "Update README with new user"
           git push

@@ -32,7 +32,6 @@ And submit the issue.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
-| [MaximFiedler](https://github.com/MaximFiedler) | <img src="https://avatars.githubusercontent.com/MaximFiedler" width="30" height="30" /> | 2024-11-10 |
 | [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-10 |
 | [Gebuildet](https://github.com/Gebuildet) | <img src="https://avatars.githubusercontent.com/Gebuildet" width="30" height="30" /> | 2024-11-10 |
 

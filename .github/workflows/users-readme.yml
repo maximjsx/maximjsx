@@ -120,7 +120,7 @@ jobs:
         ' README.md > README.temp.md && mv README.temp.md README.md
 
     - name: Commit and push changes
-      if: ${{ env.duplicate == 'false' }}
+      if: ${{ env.duplicate == 'false' && env.submittitle == 'true' }}
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"

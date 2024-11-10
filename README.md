@@ -23,7 +23,7 @@
 <br>
 
 ## Verewige dich hier 
-(How you can add yourself to this readme)
+How you can add yourself to this readme
 
 Just click [here](https://github.com/max1mde/max1mde/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.).
 And submit the issue.

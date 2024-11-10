@@ -47,7 +47,7 @@ jobs:
         fi
 
     - name: Update README with latest user
-      if: ${{ env.duplicate == 'false' }}
+      if: ${{ env.duplicate == 'false' && env.submittitle == 'true' }}
       run: |
         new_user_row="| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |"
 
@@ -158,5 +158,6 @@ jobs:
 
         curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"If you wanted to \\\"Submit yourself\\\" to the readme.. Please close this issue because you have modified the title and try again.\"}"
+          -d "{\"body\":\"If you wanted to \\\"Submit yourself\\\" to the readme... Please close this issue because you have modified the title and try again.\"}" \
           https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER/comments
+

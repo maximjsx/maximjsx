@@ -50,121 +50,104 @@ jobs:
     - name: Update README with latest user
       if: ${{ env.duplicate == 'false' && env.submittitle == 'true' }}
       run: |
-        new_user_row="| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |"
-
-        awk -v new_user_row="$new_user_row" '
-        BEGIN { 
-          inside_users = 0
-          inside_old = 0
-          user_count = 0
-          header_printed = 0
-        }
-
-        /<!--START_SECTION:users-->/ {
-          print $0
-          inside_users = 1
-          if (!header_printed) {
-            print "| Name | Picture | Date |"
-            print "| ---- | ---------------- | ---- |"
-            header_printed = 1
-          }
-          print new_user_row
-          next
-        }
-
-        inside_users && /^\|.*\|.*\|.*\|$/ && !/\| Name \|/ && !/\| ---- \|/ {
-          user_count++
-          if (user_count <= 2) {
-            print $0
-          } else {
-            old_user = $0
-          }
-          next
-        }
-
-        /<!--END_SECTION:users-->/ {
-          print $0
-          inside_users = 0
-          next
-        }
-
-        /<details>/ || /<summary>/ {
-          print $0
-          next
-        }
-
-        /<!--START_SECTION:old_users-->/ {
-          print $0
-          inside_old = 1
-          print "| Name | Picture | Date |"
-          print "| ---- | ---------------- | ---- |"
-          if (user_count > 2) {
-            print old_user
-          }
-          next
-        }
-
-        inside_old && /^\|.*\|.*\|.*\|$/ && !/\| Name \|/ && !/\| ---- \|/ {
-          print $0
-          next
-        }
-
-        /<!--END_SECTION:old_users-->/ {
-          print $0
-          inside_old = 0
-          next
-        }
-
-        !/\| Name \|/ && !/\| ---- \|/ {
-          print $0
-        }
-        ' README.md > README.temp.md && mv README.temp.md README.md
-
-    - name: Commit and push changes
-      if: ${{ env.duplicate == 'false' && env.submittitle == 'true' }}
-      run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
-    
-        update_readme() {
+        
+        new_user_row="| [${{ env.USER_NAME }}](https://github.com/${{ env.USER_NAME }}) | <img src=\"${{ env.USER_AVATAR }}\" width=\"30\" height=\"30\" /> | ${{ env.USER_DATE }} |"
 
-          awk -v new_user_row="$new_user_row" '...' README.md > README.temp.md
-          mv README.temp.md README.md
+        update_readme() {
+          awk -v new_user_row="$new_user_row" '
+          BEGIN { 
+            inside_users = 0
+            inside_old = 0
+            user_count = 0
+            header_printed = 0
+          }
+
+          /<!--START_SECTION:users-->/ {
+            print $0
+            inside_users = 1
+            if (!header_printed) {
+              print "| Name | Picture | Date |"
+              print "| ---- | ---------------- | ---- |"
+              header_printed = 1
+            }
+            print new_user_row
+            next
+          }
+
+          inside_users && /^\|.*\|.*\|.*\|$/ && !/\| Name \|/ && !/\| ---- \|/ {
+            user_count++
+            if (user_count <= 2) {
+              print $0
+            } else {
+              old_user = $0
+            }
+            next
+          }
+
+          /<!--END_SECTION:users-->/ {
+            print $0
+            inside_users = 0
+            next
+          }
+
+          /<details>/ || /<summary>/ {
+            print $0
+            next
+          }
+
+          /<!--START_SECTION:old_users-->/ {
+            print $0
+            inside_old = 1
+            print "| Name | Picture | Date |"
+            print "| ---- | ---------------- | ---- |"
+            if (user_count > 2) {
+              print old_user
+            }
+            next
+          }
+
+          inside_old && /^\|.*\|.*\|.*\|$/ && !/\| Name \|/ && !/\| ---- \|/ {
+            print $0
+            next
+          }
+
+          /<!--END_SECTION:old_users-->/ {
+            print $0
+            inside_old = 0
+            next
+          }
+
+          !/\| Name \|/ && !/\| ---- \|/ {
+            print $0
+          }' README.md > README.temp.md && mv README.temp.md README.md
         }
-    
 
         for i in {1..3}; do
           git reset --hard
           git clean -fd
-
           git fetch origin main
           git reset --hard origin/main
-      
           update_readme
-      
           git add README.md
           git commit -m "Update README with new user"
-      
+          
           if git push; then
-            echo "Successfully pushed changes"
             exit 0
           fi
-      
-          echo "Push failed, retrying... (attempt $i)"
+          
           sleep $((i * 2)) 
         done
-    
-        echo "Failed to push after 3 attempts"
 
         ISSUE_NUMBER=${{ github.event.issue.number }}
         ERROR_MESSAGE="An error occurred while trying to add you to the list. Please check the [failed action run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
-    
+        
         curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
           -d "{\"body\":\"$ERROR_MESSAGE\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER/comments"
-    
-
+        
         curl -X PATCH -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
           "https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER" \
@@ -204,4 +187,3 @@ jobs:
           -H "Accept: application/vnd.github+json" \
           -d "{\"body\":\"If you wanted to \\\"Submit yourself\\\" to the readme... Please close this issue because you have modified the title and try again.\"}" \
           https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER/comments
-

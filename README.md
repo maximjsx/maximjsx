@@ -30,8 +30,9 @@ And submit the issue.
 
 ### Latest users
 <!--START_SECTION:users-->
-| Name | Profile Picture | Date |
+| Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-10 |
 | [Gebuildet](https://github.com/Gebuildet) | <img src="https://avatars.githubusercontent.com/Gebuildet" width="30" height="30" /> | 2024-11-10 |
 
 <!--END_SECTION:users-->
@@ -40,7 +41,7 @@ And submit the issue.
 <summary>Older users</summary>
   
 <!--START_SECTION:old_users-->
-| Name | Profile Picture | Date |
+| Name | Picture | Date |
 | ---- | ---------------- | ---- |
 
 <!--END_SECTION:old_users-->

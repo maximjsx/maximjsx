@@ -1,7 +1,4 @@
-<p align="center">
-  <a href="https://github.com/max1mde">
-    <img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=30&duration=4100&color=8C63F7&center=true&multiline=false&random=false&width=749&height=55&lines=Здрасти шпасти!;Hi;Moin moin meine aktiven Freunde;Servus;Привет сигма" /></a>
-</p>
+![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&theme=beach&email=maxim@nextfight.net&description=Whats%20up)
 
 <div align="left">
 

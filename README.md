@@ -1,4 +1,4 @@
-![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&theme=beach&email=maxim@nextfight.net&description=Moin%20moin)
+![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=beach&email=maxim@nextfight.net&description=Moin%20moin)
 
 <div align="left">
 

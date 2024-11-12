@@ -3,7 +3,7 @@
 # #1 Repository
 
 <div align="left">
-<a href="https://github.com/max1mde/FancyPhysics"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&hide_border=true&update=5&dark_bg=3" /></a>
+<a href="https://github.com/max1mde/FancyPhysics"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&update=5&dark_bg=3" /></a>
 
 <!---  
 <a href="https://github.com/max1mde/ChatBubblesAPI"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&hide_border=true&update=4" /></a>

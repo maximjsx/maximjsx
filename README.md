@@ -1,4 +1,4 @@
-[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=beach&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=&include_all_commits=true&update=7)](https://github.com/max1mde/fancy-readme-stats)
+[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=beach&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Джером%20Тайлер%20Кайл&include_all_commits=true&update=7)](https://github.com/max1mde/fancy-readme-stats)
 
 ---
 

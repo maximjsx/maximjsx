@@ -5,7 +5,7 @@
 <div align="left">
 <a href="https://github.com/max1mde/FancyPhysics">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&update=6&dark_bg=3" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/max1mde/ChatBubblesAPI">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&dark_bg=3&update=4" />
 </a>
@@ -14,7 +14,7 @@
 <br>
 <a href="https://github.com/max1mde/HologramAPI">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=beach&show_icons=true&dark_bg=3&update=4&" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/max1mde/FIX">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=beach&show_icons=true&dark_bg=3&update=4" />
 </a>

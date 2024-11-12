@@ -1,22 +1,22 @@
-[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=forest&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Здрасти%20малък%20шпасти&include_all_commits=true&update=5)](https://github.com/max1mde/fancy-readme-stats)
+[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=forest&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Здрасти%20малък%20шпасти&include_all_commits=true&update=7)](https://github.com/max1mde/fancy-readme-stats)
 
 # Some Repositories
 
 <div align="left">
 <a href="https://github.com/max1mde/FancyPhysics">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&update=6&dark_bg=3" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&update=7&dark_bg=3" />
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/max1mde/ChatBubblesAPI">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&dark_bg=3&update=4" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&dark_bg=3&update=5" />
 </a>
 <br>
 <br>
 <br>
 <a href="https://github.com/max1mde/HologramAPI">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=beach&show_icons=true&dark_bg=3&update=4&" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=beach&show_icons=true&dark_bg=3&update=5&" />
 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/max1mde/FIX">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=beach&show_icons=true&dark_bg=3&update=4" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=beach&show_icons=true&dark_bg=3&update=5" />
 </a>
 
 

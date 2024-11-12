@@ -3,11 +3,11 @@
 <div align="left">
 
 <h1>Some repositories</h1>
-<a href="https://github.com/max1mde/FancyPhysics"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&hide_border=true&update=3" /></a>
-<a href="https://github.com/max1mde/ChatBubblesAPI"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&hide_border=true&update=3" /></a>
+<a href="https://github.com/max1mde/FancyPhysics"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=beach&show_icons=true&hide_border=true&update=4" /></a>
+<a href="https://github.com/max1mde/ChatBubblesAPI"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&hide_border=true&update=4" /></a>
 <br>
-<a href="https://github.com/max1mde/HologramAPI"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=city&show_icons=true&hide_border=true&update=3&" /></a>
-<a href="https://github.com/max1mde/FIX"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=city&show_icons=true&hide_border=true&update=3" /></a>
+<a href="https://github.com/max1mde/HologramAPI"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=city&show_icons=true&hide_border=true&update=4&" /></a>
+<a href="https://github.com/max1mde/FIX"><img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=city&show_icons=true&hide_border=true&update=4" /></a>
 <br>
 <br>
 

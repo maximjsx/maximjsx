@@ -2,7 +2,7 @@
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=60&lines=About+me)]()<br>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=About+me)]()<br>
 Hi, my name is Maxim!  
 
 I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  

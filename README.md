@@ -57,7 +57,7 @@ These are the tools & languages I use for certain things
 <br>
 
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)]<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
 You can add yourself to this readme and stick here forever   
 Just click [here](https://github.com/max1mde/max1mde/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.).
 And submit the issue.

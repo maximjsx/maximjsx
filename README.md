@@ -10,28 +10,14 @@ You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), i
 
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
+| **Category**             | **Tools & Languages**                                                                                                                                                                            |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **🖥️ Code Editors & IDEs** | ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-%23A13C5C.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-%23A13C5C.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![WebStorm](https://img.shields.io/badge/WebStorm-%23A13C5C.svg?style=for-the-badge&logo=webstorm&logoColor=white)  |
+| **💻 Languages**           | ![Java](https://img.shields.io/badge/Java-%23A13C5C.svg?style=for-the-badge&logo=java&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23A13C5C.svg?style=for-the-badge&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-%23A13C5C.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-%23A13C5C.svg?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-%23A13C5C.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-%23A13C5C.svg?style=for-the-badge&logo=css3&logoColor=white)  |
+| **⚙️ Frameworks & Libraries** | ![Next.js](https://img.shields.io/badge/Next.js-%23A13C5C.svg?style=for-the-badge&logo=next.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-%23A13C5C.svg?style=for-the-badge&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-%23A13C5C.svg?style=for-the-badge&logo=react&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%23A13C5C.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  |
+| **🛠️ Development Tools**   | ![Gradle](https://img.shields.io/badge/Gradle-%23A13C5C.svg?style=for-the-badge&logo=gradle&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%23A13C5C.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-%23A13C5C.svg?style=for-the-badge&logo=mariadb&logoColor=white) ![Termius](https://img.shields.io/badge/Termius-%23A13C5C.svg?style=for-the-badge&logo=termius&logoColor=white)  |
+| **🖼️ Design & Other Tools** | ![Photopea](https://img.shields.io/badge/Photopea-%23A13C5C.svg?style=for-the-badge&logo=photopea&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-%23A13C5C.svg?style=for-the-badge&logo=figma&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-%23A13C5C.svg?style=for-the-badge&logo=windows&logoColor=white)  |
 
-### 🎮 Spigot Plugins
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-%23000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=gradle&logoColor=white)
-
-### 🌐 Web Development
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) 
-![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23404D59.svg?style=for-the-badge&logo=express&logoColor=white) 
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![Visual Studio Code](https://img.shields.io/badge/VSCode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![WebStorm](https://img.shields.io/badge/WebStorm-%23000000.svg?style=for-the-badge&logo=webstorm&logoColor=white) 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
-
-### 🖥️ Other Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
-![MariaDB](https://img.shields.io/badge/MariaDB-%23003545.svg?style=for-the-badge&logo=mariadb&logoColor=white) 
-![Windows](https://img.shields.io/badge/Windows-%230078D6.svg?style=for-the-badge&logo=windows&logoColor=white) 
-![Termius](https://img.shields.io/badge/Termius-%2330A3E6.svg?style=for-the-badge&logo=termius&logoColor=white) 
-![Photopea](https://img.shields.io/badge/Photopea-%233A3A3A.svg?style=for-the-badge&logo=photopea&logoColor=white)
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">

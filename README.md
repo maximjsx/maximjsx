@@ -24,7 +24,7 @@ In my free time, I like to mew to gain max look and mog everyone around me.
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">
 <a href="https://github.com/max1mde/FancyPhysics">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=city&show_icons=true&update=7&dark_bg=3" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=snow&show_icons=true&update=7&dark_bg=3" />
 </a>
 
 <!--- 

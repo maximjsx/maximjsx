@@ -2,14 +2,14 @@
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=About+me)]()<br>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=60&lines=About+me)]()<br>
 Hi, my name is Maxim!  
 
 I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  
 You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the API of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats), on here.
 
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=What+I+use)](https://git.io/typing-svg)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=What+I+use)]<br>
 These are the tools & languages I use for certain things
 
 **Spigot plugins:**

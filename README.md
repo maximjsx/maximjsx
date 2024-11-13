@@ -9,7 +9,7 @@ I've dedicated a significant amount of time to the Minecraft modding community, 
 You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the API of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats), on here.
 
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=What+I+use)]<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=What+I+use)<br>
 These are the tools & languages I use for certain things
 
 **Spigot plugins:**
@@ -32,7 +32,7 @@ These are the tools & languages I use for certain things
 - MongoDB
 - MariaDB
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=%231+Repository)](https://git.io/typing-svg)<br>
+<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">
 <a href="https://github.com/max1mde/FancyPhysics">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FancyPhysics&theme=city&show_icons=true&update=7&dark_bg=3" />
@@ -57,7 +57,7 @@ These are the tools & languages I use for certain things
 <br>
 
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=Stick+here+forever%3F)](https://git.io/typing-svg)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)]<br>
 You can add yourself to this readme and stick here forever   
 Just click [here](https://github.com/max1mde/max1mde/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.).
 And submit the issue.
@@ -85,7 +85,7 @@ And submit the issue.
 
 </details>
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=WakaTime+Stats)](https://git.io/typing-svg)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=5000&pause=2200&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=WakaTime+Stats)<br>
 <!--START_SECTION:waka-->
 📊 **This Week I Spent My Time On** 
 
@@ -118,7 +118,7 @@ Windows                  21 hrs 2 mins       ███████████�
  Last Updated on 13/11/2024
 <!--END_SECTION:waka-->
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&lines=Contact+me)](https://git.io/typing-svg)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=2500&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Contact+me)<br>
 
 <h2>Discord</h2>  
 <img src="https://lanyard.cnrad.dev/api/759334613335670805" alt="discord">

@@ -9,30 +9,29 @@ I've dedicated a significant amount of time to the Minecraft modding community, 
 You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the API of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats), on here.
 
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=What+I+use)<br>
-These are the tools & languages I use for certain things
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
 
-**Spigot plugins:**
-- Java
-- Intellij
-- Gradle
+### 🎮 Spigot Plugins
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-%23000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-%2302303A.svg?style=for-the-badge&logo=gradle&logoColor=white)
 
-**Web:**
-- JavaScript
-- Next.js
-- Express.js
-- React
-- TypeScript
-- Visual Studio Code
-- Webstorm
-- Shadcn
-- Tailwind
+### 🌐 Web Development
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) 
+![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404D59.svg?style=for-the-badge&logo=express&logoColor=white) 
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
+![Visual Studio Code](https://img.shields.io/badge/VSCode-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![WebStorm](https://img.shields.io/badge/WebStorm-%23000000.svg?style=for-the-badge&logo=webstorm&logoColor=white) 
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
 
-**Other:**
-- MongoDB
-- MariaDB
-- Windows
-- Termius
+### 🖥️ Other Tools
+![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![MariaDB](https://img.shields.io/badge/MariaDB-%23003545.svg?style=for-the-badge&logo=mariadb&logoColor=white) 
+![Windows](https://img.shields.io/badge/Windows-%230078D6.svg?style=for-the-badge&logo=windows&logoColor=white) 
+![Termius](https://img.shields.io/badge/Termius-%2330A3E6.svg?style=for-the-badge&logo=termius&logoColor=white) 
+![Photopea](https://img.shields.io/badge/Photopea-%233A3A3A.svg?style=for-the-badge&logo=photopea&logoColor=white)
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">

@@ -28,9 +28,11 @@ These are the tools & languages I use for certain things
 - Shadcn
 - Tailwind
 
-**Database:**
+**Other:**
 - MongoDB
 - MariaDB
+- Windows
+- Termius
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">

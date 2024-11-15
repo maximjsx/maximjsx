@@ -10,6 +10,8 @@ You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), i
 
 In my free time, I like to mew to gain max look and mog everyone around me.
 
+<br>
+
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=3000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
 | **Category**             | **Tools & Languages**                                                                                                                                                                            |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -19,37 +21,19 @@ In my free time, I like to mew to gain max look and mog everyone around me.
 | **⚙️ Frameworks & Libraries** | ![Next.js](https://img.shields.io/badge/Next.js-%23A13C5C.svg?style=for-the-badge&logo=next.js&logoColor=white) [![Node.js](https://img.shields.io/badge/Node.js-%23A13C5C.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) ![Express.js](https://img.shields.io/badge/Express.js-%23A13C5C.svg?style=for-the-badge&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-%23A13C5C.svg?style=for-the-badge&logo=react&logoColor=white)  ![Tailwind](https://img.shields.io/badge/Tailwind-%23A13C5C.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  |
 | **💻 Languages**           | ![Java](https://img.shields.io/badge/Java-%23A13C5C.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23A13C5C.svg?style=for-the-badge&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-%23A13C5C.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-%23A13C5C.svg?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-%23A13C5C.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-%23A13C5C.svg?style=for-the-badge&logo=css3&logoColor=white)  |
 
-
-
-
+<br>
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=5000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">
-<a href="https://www.spigotmc.org/resources/110500/"><img src="https://img.shields.io/spiget/downloads/110500?label=Spigot%20downloads" alt="Spigot downloads"></a>
+&nbsp;<a href="https://www.spigotmc.org/resources/110500/"><img src="https://img.shields.io/spiget/downloads/110500?label=Spigot%20downloads" alt="Spigot downloads"></a>
 <a href="https://www.spigotmc.org/resources/110500/reviews"><img src="https://img.shields.io/spiget/rating/110500?label=Spigot%20rating" alt="Spigot rating"></a>
 <a href="https://bstats.org/plugin/bukkit/Fancy%20Physics/18833"><img src="https://img.shields.io/bstats/servers/18833" alt="bStats"></a><br>
 <a href="https://github.com/max1mde/FancyPhysics">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=snow&show_icons=true&update=7&dark_bg=3" />
 </a>
 
-<!--- 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/max1mde/ChatBubblesAPI">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=ChatBubblesAPI&theme=beach&show_icons=true&dark_bg=3&update=5" />
-</a>
 <br>
 <br>
-<br>
-<a href="https://github.com/max1mde/HologramAPI">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=HologramAPI&theme=beach&show_icons=true&dark_bg=3&update=5&" />
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/max1mde/FIX">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&repo=FIX&theme=beach&show_icons=true&dark_bg=3&update=5" />
-</a>
---->
-<br>
-<br>
-
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=6000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
 You can add yourself to this readme and stick here forever   
@@ -80,6 +64,8 @@ And submit the issue.
 <!--END_SECTION:old_users-->
 
 </details>
+
+<br>
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=5000&pause=7000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=WakaTime+Stats)<br>
 <!--START_SECTION:waka-->
@@ -112,6 +98,9 @@ Windows                  25 hrs 21 mins      ███████████�
 
  Last Updated on 15/11/2024
 <!--END_SECTION:waka-->
+
+<br>
+<br>
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 

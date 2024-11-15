@@ -10,7 +10,7 @@ You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), i
 
 In my free time, I like to mew to gain max look and mog everyone around me.
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=3000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
 | **Category**             | **Tools & Languages**                                                                                                                                                                            |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **🖥️ Code Editors & IDEs** | ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-%23A13C5C.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-%23A13C5C.svg?style=for-the-badge&logo=visualstudiocode&logoColor=white) ![WebStorm](https://img.shields.io/badge/WebStorm-%23A13C5C.svg?style=for-the-badge&logo=webstorm&logoColor=white)  |
@@ -23,7 +23,7 @@ In my free time, I like to mew to gain max look and mog everyone around me.
 
 
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
+<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=5000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">
 <a href="https://github.com/max1mde/FancyPhysics">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=snow&show_icons=true&update=7&dark_bg=3" />
@@ -48,7 +48,7 @@ In my free time, I like to mew to gain max look and mog everyone around me.
 <br>
 
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=1000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=6000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
 You can add yourself to this readme and stick here forever   
 Just click [here](https://github.com/max1mde/max1mde/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.).
 And submit the issue.
@@ -77,7 +77,7 @@ And submit the issue.
 
 </details>
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=5000&pause=2200&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=WakaTime+Stats)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=5000&pause=7000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=WakaTime+Stats)<br>
 <!--START_SECTION:waka-->
 📊 **This Week I Spent My Time On** 
 
@@ -110,6 +110,6 @@ Windows                  23 hrs 5 mins       ███████████�
  Last Updated on 15/11/2024
 <!--END_SECTION:waka-->
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=2500&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)

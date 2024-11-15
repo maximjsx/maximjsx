@@ -110,10 +110,6 @@ Windows                  23 hrs 5 mins       ███████████�
  Last Updated on 15/11/2024
 <!--END_SECTION:waka-->
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=2500&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Contact+me)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=2500&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 
-<h2>Discord</h2>  
-<img src="https://lanyard.cnrad.dev/api/759334613335670805" alt="discord">
-
-<h2>Email</h2>  
-ceo@nextfight.net
+[![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)

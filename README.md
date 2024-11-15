@@ -25,6 +25,9 @@ In my free time, I like to mew to gain max look and mog everyone around me.
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=5000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">
+<a href="https://www.spigotmc.org/resources/110500/"><img src="https://img.shields.io/spiget/downloads/110500?label=Spigot%20downloads" alt="Spigot downloads"></a>
+<a href="https://www.spigotmc.org/resources/110500/reviews"><img src="https://img.shields.io/spiget/rating/110500?label=Spigot%20rating" alt="Spigot rating"></a>
+<a href="https://bstats.org/plugin/bukkit/Fancy%20Physics/18833"><img src="https://img.shields.io/bstats/servers/18833" alt="bStats"></a><br>
 <a href="https://github.com/max1mde/FancyPhysics">
   <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=snow&show_icons=true&update=7&dark_bg=3" />
 </a>

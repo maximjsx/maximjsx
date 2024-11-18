@@ -42,9 +42,9 @@ And submit the issue.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [ReneGaming5](https://github.com/ReneGaming5) | <img src="https://avatars.githubusercontent.com/ReneGaming5" width="30" height="30" /> | 2024-11-18 |
 | [LuisGot](https://github.com/LuisGot) | <img src="https://avatars.githubusercontent.com/LuisGot" width="30" height="30" /> | 2024-11-15 |
 | [Kiritosky](https://github.com/Kiritosky) | <img src="https://avatars.githubusercontent.com/Kiritosky" width="30" height="30" /> | 2024-11-14 |
-| [chicacos](https://github.com/chicacos) | <img src="https://avatars.githubusercontent.com/chicacos" width="30" height="30" /> | 2024-11-10 |
 
 <!--END_SECTION:users-->
 
@@ -54,6 +54,7 @@ And submit the issue.
 <!--START_SECTION:old_users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [chicacos](https://github.com/chicacos) | <img src="https://avatars.githubusercontent.com/chicacos" width="30" height="30" /> | 2024-11-10 |
 | [BlackDevReal](https://github.com/BlackDevReal) | <img src="https://avatars.githubusercontent.com/BlackDevReal" width="30" height="30" /> | 2024-11-10 |
 | [hallo1142](https://github.com/hallo1142) | <img src="https://avatars.githubusercontent.com/hallo1142" width="30" height="30" /> | 2024-11-10 |
 | [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-10 |

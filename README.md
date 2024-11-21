@@ -1,4 +1,4 @@
-[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=forest_winter&hide_border=true&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Last%20Christmas%20💣☢️✨&include_all_commits=true&update=9)](https://github.com/max1mde/fancy-readme-stats)
+[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=forest_winter&hide_border=true&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Last%20Christmas%20☢️✨&include_all_commits=true&update=9)](https://github.com/max1mde/fancy-readme-stats)
 
 ---
 

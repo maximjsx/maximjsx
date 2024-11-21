@@ -105,3 +105,5 @@ Windows                  26 hrs 9 mins       ███████████�
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=A13C5C&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
+
+https://www.youtube.com/watch?v=2dZK1EtFZcA

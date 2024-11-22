@@ -1,4 +1,8 @@
-[![GitHub Profile Card](https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=forest_winter&hide_border=true&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Last%20Christmas%20☢️✨&include_all_commits=true&update=9)](https://github.com/max1mde/fancy-readme-stats)
+<div align="center">
+  <a href="https://github.com/max1mde/fancy-readme-stats" target="_blank">
+      <img src="https://fancy-readme-stats.vercel.app/api?username=max1mde&show_icons=true&theme=forest_winter&hide_border=true&email=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&description=Last%20Christmas%20☢️✨&include_all_commits=true&update=9">
+  </a>
+</div>
 
 ---
 
@@ -7,6 +11,11 @@ Hi, my name is Maxim!
 
 I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  
 You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/max1mde/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats), on here.
+
+You are also welcome to join my<br>
+<a href="https://discord.gg/2UTkYj26B4" target="_blank">
+  <img src="https://img.shields.io/badge/Discord_Server-7289DA?style=flat&logo=discord&logoColor=white" alt="Join Discord Server" style="border-radius: 15px; height: 20px;">
+</a>
 
 <br>
 

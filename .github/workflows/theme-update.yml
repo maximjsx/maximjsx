@@ -23,7 +23,7 @@ jobs:
         themes_colors["red_rain"]="873653"
         themes_colors["rain"]="00432c"
         themes_colors["forest"]="33793d"
-        themes_colors["beach"]="501b36"
+        themes_colors["beach"]="cc545a"
         themes_colors["forest_autumn"]="965425"
 
         random_theme=$(shuf -n 1 -e "${!themes_colors[@]}")

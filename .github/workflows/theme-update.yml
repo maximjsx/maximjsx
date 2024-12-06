@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 7 * * *'
   workflow_dispatch:
-  
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -16,13 +16,12 @@ jobs:
     - name: Set themes and colors
       id: set_theme_colors
       run: |
-
         declare -A themes_colors
         themes_colors["city"]="000d8b"
         themes_colors["forest_winter"]="182942"
         themes_colors["snow"]="2a3a44"
         themes_colors["red_rain"]="873653"
-        themes_colors["rain"]="00422d"
+        themes_colors["rain"]="00432c"
         themes_colors["forest"]="33793d"
         themes_colors["beach"]="501b36"
         themes_colors["forest_autumn"]="965425"
@@ -36,13 +35,9 @@ jobs:
 
     - name: Replace themes and colors in README
       run: |
-        theme_pattern="&theme=[^&]*&"
-        color_pattern="&color=[^&]*&vCenter=true&"
-        hex_color_pattern="-%23[^&]*.svg"
-
-        sed -i "s/$theme_pattern/&theme=${{ env.theme }}&/g" README.md
-        sed -i "s/$color_pattern/&color=${{ env.color }}&vCenter=true&/g" README.md
-        sed -i "s/$hex_color_pattern/%23${{ env.color }}.svg/g" README.md
+        sed -i "s/theme=[^&]*/theme=${{ env.theme }}/g" README.md
+        sed -i "s/color=[^&]*/color=${{ env.color }}/g" README.md
+        sed -i "s/-%23[0-9a-fA-F]\{6\}.svg/-%23${{ env.color }}.svg/g" README.md
 
     - name: Commit and push changes
       run: |

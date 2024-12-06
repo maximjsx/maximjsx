@@ -36,7 +36,7 @@ You are also welcome to join my<br>
 <a href="https://www.spigotmc.org/resources/110500/reviews"><img src="https://img.shields.io/spiget/rating/110500?label=Spigot%20rating" alt="Spigot rating"></a>
 <a href="https://bstats.org/plugin/bukkit/Fancy%20Physics/18833"><img src="https://img.shields.io/bstats/servers/18833" alt="bStats"></a><br>
 <a href="https://github.com/max1mde/FancyPhysics">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=snow&show_icons=true&update=7&dark_bg=3" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=forest_autumn&show_icons=true&update=7&dark_bg=3" />
 </a>
 
 <br>

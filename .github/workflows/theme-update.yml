@@ -18,7 +18,7 @@ jobs:
       run: |
         declare -A themes_colors
         themes_colors["city"]="000d8b"
-        themes_colors["forest_winter"]="182942"
+        themes_colors["forest_winter"]="33793d"
         themes_colors["snow"]="2a3a44"
         themes_colors["red_rain"]="873653"
         themes_colors["rain"]="00432c"

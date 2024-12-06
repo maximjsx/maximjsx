@@ -17,7 +17,7 @@ jobs:
       id: set_theme_colors
       run: |
         declare -A themes_colors
-        themes_colors["city"]="000d8b"
+        themes_colors["city"]="1523bd"
         themes_colors["forest_winter"]="33793d"
         themes_colors["snow"]="2a3a44"
         themes_colors["red_rain"]="873653"
@@ -45,6 +45,6 @@ jobs:
         git config --local user.email "github-actions@github.com"
         
         git add README.md
-        git commit -m "Update README with random theme: ${{ env.theme }}"
+        git commit -m "Update theme: ${{ env.theme }}"
         
         git push

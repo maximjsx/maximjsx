@@ -37,11 +37,11 @@ jobs:
       run: |
         theme_pattern="&theme=[^&]*&"
         color_pattern="&color=[^&]*&vCenter=true&"
-        hex_color_pattern="%23[0-9a-fA-F]{6}"
+        hex_color_pattern="-%23[^&]*.svg"
 
         sed -i "s/$theme_pattern/&theme=${{ env.theme }}&/g" README.md
         sed -i "s/$color_pattern/&color=${{ env.color }}&vCenter=true&/g" README.md
-        sed -i "s/$hex_color_pattern/%23${{ env.color }}/g" README.md
+        sed -i "s/$hex_color_pattern/%23${{ env.color }}.svg/g" README.md
 
     - name: Commit and push changes
       run: |

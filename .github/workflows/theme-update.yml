@@ -1,0 +1,54 @@
+name: Update README with Random Theme
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set themes and colors
+      id: set_theme_colors
+      run: |
+
+        declare -A themes_colors
+        themes_colors["city"]="000d8b"
+        themes_colors["forest_winter"]="182942"
+        themes_colors["snow"]="2a3a44"
+        themes_colors["red_rain"]="873653"
+        themes_colors["rain"]="00422d"
+        themes_colors["forest"]="33793d"
+        themes_colors["beach"]="501b36"
+        themes_colors["forest_autumn"]="965425"
+
+        random_theme=$(shuf -n 1 -e "${!themes_colors[@]}")
+
+        random_color=${themes_colors[$random_theme]}
+
+        echo "theme=$random_theme" >> $GITHUB_ENV
+        echo "color=$random_color" >> $GITHUB_ENV
+
+    - name: Replace themes and colors in README
+      run: |
+        theme_pattern="&theme=[^&]*&"
+        color_pattern="&color=[^&]*&vCenter=true&"
+        hex_color_pattern="%23[0-9a-fA-F]{6}"
+
+        sed -i "s/$theme_pattern/&theme=${{ env.theme }}&/g" README.md
+        sed -i "s/$color_pattern/&color=${{ env.color }}&vCenter=true&/g" README.md
+        sed -i "s/$hex_color_pattern/%23${{ env.color }}/g" README.md
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions"
+        git config --local user.email "github-actions@github.com"
+        
+        git add README.md
+        git commit -m "Update README with random theme: ${{ env.theme }}"
+        
+        git push

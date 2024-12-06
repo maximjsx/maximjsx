@@ -3,7 +3,8 @@ name: Update README with Random Theme
 on:
   schedule:
     - cron: '0 7 * * *'
-
+  workflow_dispatch:
+  
 jobs:
   update-readme:
     runs-on: ubuntu-latest

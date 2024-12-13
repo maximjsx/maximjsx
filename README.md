@@ -108,8 +108,10 @@ Windows                  26 hrs 1 min        ███████████�
 <br>
 <br>
 
+
+[![img](https://github.com/user-attachments/assets/fb882d1e-fdd5-4a48-8bd4-88590c6f1dcd)](https://github.com/max1mde/portfolio)
+
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
 
-https://www.youtube.com/watch?v=2dZK1EtFZcA

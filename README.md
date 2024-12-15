@@ -111,6 +111,8 @@ Windows                  38 hrs 12 mins      ███████████�
 <br>
 <br>
 
+[![jerome](https://github.com/user-attachments/assets/2670641a-ea66-491a-83fd-4b39930032b4)](https://www.youtube.com/watch?v=2dZK1EtFZcA)
+
 
 [![img](https://github.com/user-attachments/assets/fb882d1e-fdd5-4a48-8bd4-88590c6f1dcd)](https://github.com/max1mde/portfolio)
 

@@ -117,5 +117,11 @@ Windows                  38 hrs 12 mins      ███████████�
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
 
+<br>
+<br>
 
-[![jerome](https://github.com/user-attachments/assets/2670641a-ea66-491a-83fd-4b39930032b4)](https://www.youtube.com/watch?v=2dZK1EtFZcA)
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=2dZK1EtFZcA"">
+    <img src="https://github.com/user-attachments/assets/2670641a-ea66-491a-83fd-4b39930032b4">
+  </a>
+</div>

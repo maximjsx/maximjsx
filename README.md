@@ -77,6 +77,18 @@ And submit the issue.
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=5000&pause=7000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=WakaTime+Stats)<br>
 <!--START_SECTION:waka-->
+**🐱 My Github Data** 
+
+> 🏆 1,848 Contributions in the Year 2024
+ > 
+> 📦 866.8 kB Used in Github's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 55 Public Repositories 
+ > 
+> 🔑 55 Private Repositories  
+ > 
 📊 **This Week I Spent My Time On** 
 
 ```text
@@ -104,6 +116,18 @@ packforge                1 hr 34 mins        ██░░░░░░░░░�
 Windows                  20 hrs 51 mins      █████████████████████████   100.0%
 
 ```
+
+**I Mostly Code in Java** 
+
+```text
+Java                     61 repos            ████████████████░░░░░░░░░   67.03% 
+JavaScript               13 repos            ███░░░░░░░░░░░░░░░░░░░░░░   14.29% 
+TypeScript               7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   7.69% 
+Python                   4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   4.4% 
+CSS                      3 repos             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.3%
+
+```
+
 
 
  Last Updated on 19/12/2024

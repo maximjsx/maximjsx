@@ -79,7 +79,7 @@ And submit the issue.
 <!--START_SECTION:waka-->
 **🐱 My Github Data** 
 
-> 🏆 1,861 Contributions in the Year 2024
+> 🏆 1,879 Contributions in the Year 2024
  > 
 > 📦 866.8 kB Used in Github's Storage 
  > 
@@ -89,21 +89,6 @@ And submit the issue.
  > 
 > 🔑 56 Private Repositories  
  > 
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-Java                     7 hrs 2 mins        ████████░░░░░░░░░░░░░░░░░   34.88% 
-TypeScript               6 hrs 27 mins       ████████░░░░░░░░░░░░░░░░░   32.05% 
-Markdown                 3 hrs 31 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.51% 
-JavaScript               2 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   10.12% 
-Bash                     19 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   1.58%
-
-💻 Operating System: 
-Windows                  20 hrs 10 mins      █████████████████████████   100.0%
-
-```
-
 
  Last Updated on 22/12/2024
 <!--END_SECTION:waka-->

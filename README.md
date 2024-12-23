@@ -105,8 +105,6 @@ And submit the issue.
 <br>
 <br>
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=2dZK1EtFZcA"">
-    <img src="https://github.com/user-attachments/assets/2670641a-ea66-491a-83fd-4b39930032b4">
-  </a>
-</div>
+<a href="https://www.youtube.com/watch?v=2dZK1EtFZcA">
+ <img width="300" src="https://github.com/user-attachments/assets/2670641a-ea66-491a-83fd-4b39930032b4">
+</a>

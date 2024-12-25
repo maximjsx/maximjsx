@@ -75,7 +75,6 @@ And submit the issue.
 
 <br>
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=5000&pause=7000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=WakaTime+Stats)<br>
 <!--START_SECTION:waka-->
 **🐱 My Github Data** 
 

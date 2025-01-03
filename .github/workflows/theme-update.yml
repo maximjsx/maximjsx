@@ -3,7 +3,7 @@ name: Update README with Random Theme
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */2 * * *"
     
 jobs:
   update-readme:

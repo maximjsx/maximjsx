@@ -17,13 +17,10 @@ jobs:
       id: set_theme_colors
       run: |
         declare -A themes_colors
-        themes_colors["city"]="1523bd"
         themes_colors["forest_winter"]="33793d"
-        themes_colors["snow"]="2a3a44"
         themes_colors["red_rain"]="873653"
         themes_colors["rain"]="048055"
         themes_colors["forest"]="33793d"
-        themes_colors["beach"]="cc545a"
         themes_colors["forest_autumn"]="965425"
 
         random_theme=$(shuf -n 1 -e "${!themes_colors[@]}")

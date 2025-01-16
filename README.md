@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/max1mde/fancy-readme-stats" target="_blank">
-      <img src="https://fancy-readme-stats.vercel.app/api?username=max1mde&title=𝓜𝓪𝔁𝓲𝓶&theme=forest_winter&dark_bg=3&hide_border=false&height=210&description=Скибиди%20Тойлет&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
+      <img src="https://fancy-readme-stats.vercel.app/api?username=max1mde&title=𝓜𝓪𝔁𝓲𝓶&theme=forest&dark_bg=3&hide_border=false&height=210&description=Скибиди%20Тойлет&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
   </a>
 </div>
 
@@ -36,7 +36,7 @@ You are also welcome to join my<br>
 <a href="https://www.spigotmc.org/resources/110500/reviews"><img src="https://img.shields.io/spiget/rating/110500?label=Spigot%20rating" alt="Spigot rating"></a>
 <a href="https://bstats.org/plugin/bukkit/Fancy%20Physics/18833"><img src="https://img.shields.io/bstats/servers/18833" alt="bStats"></a><br>
 <a href="https://github.com/max1mde/FancyPhysics">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=forest_winter&show_icons=true&update=7&dark_bg=5" />
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=forest&show_icons=true&update=7&dark_bg=5" />
 </a>
 
 <br>

@@ -103,10 +103,3 @@ And submit the issue.
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=965425&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
-
-<br>
-<br>
-
-<a href="https://www.youtube.com/watch?v=2dZK1EtFZcA">
- <img width="300" src="https://github.com/user-attachments/assets/2670641a-ea66-491a-83fd-4b39930032b4">
-</a>

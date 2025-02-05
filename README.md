@@ -10,7 +10,7 @@
 Hi, my name is Maxim!  
 
 I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  
-You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/max1mde/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats) and [HologramLib](https://github.com/max1mde/HologramLib) on here.
+You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/max1mde/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats) & [HologramLib](https://github.com/max1mde/HologramLib) on here.
 
 You are also welcome to join my<br>
 <a href="https://discord.gg/2UTkYj26B4" target="_blank">

@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/max1mde/fancy-readme-stats" target="_blank">
-      <img src="https://fancy-readme-stats.vercel.app/api?username=max1mde&title=𝓜𝓪𝔁𝓲𝓶&theme=red_rain&dark_bg=3&hide_border=false&height=230&description=Скибиди%20Тойлет&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
+<img src="https://fancy-readme-stats.vercel.app/api?username=max1mde&title=𝕸𝖆𝖝𝖎𝖒&theme=red_rain&dark_bg=3&hide_border=false&height=230&description=О,%20радуюсѧ!%20Имѧ%20ми%20есть%20Максимъ%0AВъ%20великѣй%20любови%20есмь%20къ%20софтꙋарной%20разработкѧ,%0Aвъ%20игри%20Минькрафтъ,%20и%20съ%20радостиꙋ%20творѧ%20мꙋзыку.&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
   </a>
 </div>
 

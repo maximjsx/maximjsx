@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/max1mde/fancy-readme-stats" target="_blank">
-<img src="https://fancy-readme-stats.vercel.app/api?username=max1mde&title=𝕸𝖆𝖝𝖎𝖒&theme=red_rain&dark_bg=3&hide_border=false&height=230&description=О,%20радуюсѧ!%20Имѧ%20ми%20есть%20Максимъ%0AВъ%20великѣй%20любови%20есмь%20къ%20софтꙋарной%20разработкѧ,%0Aвъ%20игри%20Минькрафтъ,%20и%20съ%20радостиꙋ%20творѧ%20мꙋзыку.&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
+  <a href="https://github.com/maximjsx/fancy-readme-stats" target="_blank">
+<img src="https://fancy-readme-stats.vercel.app/api?username=maximjsx&title=𝕸𝖆𝖝𝖎𝖒&theme=red_rain&dark_bg=3&hide_border=false&height=230&description=О,%20радуюсѧ!%20Имѧ%20ми%20есть%20Максимъ%0AВъ%20великѣй%20любови%20есмь%20къ%20софтꙋарной%20разработкѧ,%0Aвъ%20игри%20Минькрафтъ,%20и%20съ%20радостиꙋ%20творѧ%20мꙋзыку.&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
   </a>
 </div>
 
@@ -10,7 +10,7 @@
 Hi, mine name is Maxim!  
 
 I have dedicated a great portion of mine time to the Minecraft modding community, with especial focus upon the plugin scene.
-Thou canst find many of mine [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/max1mde/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent works such as [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats) & [HologramLib](https://github.com/max1mde/HologramLib) upon this site.
+Thou canst find many of mine [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/maximjsx/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent works such as [Fancy Readme Stats](https://github.com/maximjsx/fancy-readme-stats) & [HologramLib](https://github.com/maximjsx/HologramLib) upon this site.
 
 Thou art also welcome to join mine<br>
 <a href="https://discord.gg/2UTkYj26B4" target="_blank">
@@ -22,7 +22,7 @@ Thou art also welcome to join mine<br>
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=3000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
 | **Category**             | **Tools & Languages**                                                                                                                                                                            |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **🖼️ Design & Other Tools** | ![Photopea](https://img.shields.io/badge/Photopea-%23873653.svg?style=for-the-badge&logo=photopea&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-%23873653.svg?style=for-the-badge&logo=figma&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-%23873653.svg?style=for-the-badge&logo=windows&logoColor=white) [![FIX](https://img.shields.io/badge/FIX-%23873653.svg?style=for-the-badge&logo=python&logoColor=white)](https://github.com/max1mde/FIX) | 
+| **🖼️ Design & Other Tools** | ![Photopea](https://img.shields.io/badge/Photopea-%23873653.svg?style=for-the-badge&logo=photopea&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-%23873653.svg?style=for-the-badge&logo=figma&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-%23873653.svg?style=for-the-badge&logo=windows&logoColor=white) [![FIX](https://img.shields.io/badge/FIX-%23873653.svg?style=for-the-badge&logo=python&logoColor=white)](https://github.com/maximjsx/FIX) | 
 | **🛠️ Development Tools**   | ![Gradle](https://img.shields.io/badge/Gradle-%23873653.svg?style=for-the-badge&logo=gradle&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%23873653.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-%23873653.svg?style=for-the-badge&logo=mariadb&logoColor=white) ![Termius](https://img.shields.io/badge/Termius-%23873653.svg?style=for-the-badge&logo=termius&logoColor=white)  |
 | **⚙️ Frameworks & Libraries** | ![Next.js](https://img.shields.io/badge/Next.js-%23873653.svg?style=for-the-badge&logo=next.js&logoColor=white) [![Node.js](https://img.shields.io/badge/Node.js-%23873653.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) ![Express.js](https://img.shields.io/badge/Express.js-%23873653.svg?style=for-the-badge&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-%23873653.svg?style=for-the-badge&logo=react&logoColor=white)  ![Tailwind](https://img.shields.io/badge/Tailwind-%23873653.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  |
 | **💻 Languages**           | ![Java](https://img.shields.io/badge/Java-%23873653.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23873653.svg?style=for-the-badge&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-%23873653.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-%23873653.svg?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-%23873653.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-%23873653.svg?style=for-the-badge&logo=css3&logoColor=white)  |
@@ -35,8 +35,8 @@ Thou art also welcome to join mine<br>
 &nbsp;<a href="https://www.spigotmc.org/resources/110500/"><img src="https://img.shields.io/spiget/downloads/110500?label=Spigot%20downloads" alt="Spigot downloads"></a>
 <a href="https://www.spigotmc.org/resources/110500/reviews"><img src="https://img.shields.io/spiget/rating/110500?label=Spigot%20rating" alt="Spigot rating"></a>
 <a href="https://bstats.org/plugin/bukkit/Fancy%20Physics/18833"><img src="https://img.shields.io/bstats/servers/18833" alt="bStats"></a><br>
-<a href="https://github.com/max1mde/FancyPhysics">
-  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=max1mde&hide_border=false&repo=FancyPhysics&theme=red_rain&show_icons=true&update=7&dark_bg=5" />
+<a href="https://github.com/maximjsx/FancyPhysics">
+  <img align="center" src="https://fancy-readme-stats.vercel.app/api/pin/?username=maximjsx&hide_border=false&repo=FancyPhysics&theme=red_rain&show_icons=true&update=7&dark_bg=5" />
 </a>
 
 <br>
@@ -44,7 +44,7 @@ Thou art also welcome to join mine<br>
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=6000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
 Thou canst add thyself to this readme and remain here forever   
-Just click [here](https://github.com/max1mde/max1mde/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
+Just click [here](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
 and submit the issue.
 
 ### Latest users
@@ -69,7 +69,7 @@ and submit the issue.
 | [chicacos](https://github.com/chicacos) | <img src="https://avatars.githubusercontent.com/chicacos" width="30" height="30" /> | 2024-11-10 |
 | [BlackDevReal](https://github.com/BlackDevReal) | <img src="https://avatars.githubusercontent.com/BlackDevReal" width="30" height="30" /> | 2024-11-10 |
 | [hallo1142](https://github.com/hallo1142) | <img src="https://avatars.githubusercontent.com/hallo1142" width="30" height="30" /> | 2024-11-10 |
-| [max1mde](https://github.com/max1mde) | <img src="https://avatars.githubusercontent.com/max1mde" width="30" height="30" /> | 2024-11-10 |
+| [maximjsx](https://github.com/maximjsx) | <img src="https://avatars.githubusercontent.com/maximjsx" width="30" height="30" /> | 2024-11-10 |
 | [Gebuildet](https://github.com/Gebuildet) | <img src="https://avatars.githubusercontent.com/Gebuildet" width="30" height="30" /> | 2024-11-10 |
 
 <!--END_SECTION:old_users-->
@@ -98,7 +98,7 @@ and submit the issue.
 <br>
 <br>
 
-[![img](https://github.com/user-attachments/assets/fb882d1e-fdd5-4a48-8bd4-88590c6f1dcd)](https://github.com/max1mde/portfolio)
+[![img](https://github.com/user-attachments/assets/fb882d1e-fdd5-4a48-8bd4-88590c6f1dcd)](https://github.com/maximjsx/portfolio)
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 

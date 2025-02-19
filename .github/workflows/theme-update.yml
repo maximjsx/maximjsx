@@ -2,8 +2,6 @@ name: Update README with Random Theme
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 */50 * * *"
     
 jobs:
   update-readme:

@@ -7,12 +7,12 @@
 ---
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=About+me)]()<br>
-Hi, mine name is Maxim!  
+Hi, my name is Maxim!  
 
-I have dedicated a great portion of mine time to the Minecraft modding community, with especial focus upon the plugin scene.
-Thou canst find many of mine [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/maximjsx/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent works such as [Fancy Readme Stats](https://github.com/maximjsx/fancy-readme-stats) & [HologramLib](https://github.com/maximjsx/HologramLib) upon this site.
+I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  
+You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/max1mde/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats) & [HologramLib](https://github.com/max1mde/HologramLib) on here.
 
-Thou art also welcome to join mine<br>
+You are also welcome to join my<br>
 <a href="https://discord.gg/2UTkYj26B4" target="_blank">
   <img src="https://img.shields.io/badge/Discord_Server-7289DA?style=flat&logo=discord&logoColor=white" alt="Join Discord Server" style="border-radius: 15px; height: 20px;">
 </a>
@@ -43,7 +43,7 @@ Thou art also welcome to join mine<br>
 <br>
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=6000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
-Thou canst add thyself to this readme and remain here forever   
+You can add yourself to this readme and stick here forever  
 Just click [here](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
 and submit the issue.
 

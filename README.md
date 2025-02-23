@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/maximjsx/fancy-readme-stats" target="_blank">
-<img src="https://stats.maximjsx.com/api?username=maximjsx&title=𝕸𝖆𝖝𝖎𝖒&theme=red_rain&dark_bg=3&hide_border=false&height=230&description=nogaboga&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
+<img src="https://stats.maximjsx.com/api?username=maximjsx&title=Hey,%20I'm%20Maxim!&theme=red_rain&dark_bg=3&hide_border=false&height=230&description=Heyho%20Minecraft%20Freunde!&footer=Made%20by%20MaximDe%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
   </a>
 </div>
 
@@ -10,7 +10,7 @@
 Hi, my name is Maxim!  
 
 I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  
-You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/max1mde/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/max1mde/fancy-readme-stats) & [HologramLib](https://github.com/max1mde/HologramLib) on here.
+You can find many of my [plugins](https://www.spigotmc.org/resources/110500/), including [Fancy Physics](https://www.spigotmc.org/resources/110500/) or the [API](https://github.com/maximjsx/ChatBubblesAPI) of [Better Chat Bubbles](https://www.spigotmc.org/resources/115811/) and more recent projects like, [Fancy Readme Stats](https://github.com/maximjsx/fancy-readme-stats) & [HologramLib](https://github.com/maximjsx/HologramLib) on here.
 <br>
 <br>
 
@@ -46,11 +46,11 @@ You are also welcome to join
 <br>
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=6000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
-You can add yourself to this readme and stick here forever  
-Just click [here](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
+Wanna stick here forever?  
+Just click [me](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
 and submit the issue.
 
-### Latest users
+### Latest Victims
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
@@ -106,3 +106,5 @@ and submit the issue.
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=873653&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
+
+If you read this far, you owe me a star on a random repo ⭐

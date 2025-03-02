@@ -107,4 +107,3 @@ and submit the issue.
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
 
-If you read this far, you owe me a star on a random repo ⭐

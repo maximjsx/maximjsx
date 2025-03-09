@@ -54,9 +54,9 @@ and submit the issue.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [misieur](https://github.com/misieur) | <img src="https://avatars.githubusercontent.com/misieur" width="30" height="30" /> | 2025-03-09 |
 | [theJayTea](https://github.com/theJayTea) | <img src="https://avatars.githubusercontent.com/theJayTea" width="30" height="30" /> | 2025-01-21 |
 | [SytexMC](https://github.com/SytexMC) | <img src="https://avatars.githubusercontent.com/SytexMC" width="30" height="30" /> | 2025-01-09 |
-| [vxnsin](https://github.com/vxnsin) | <img src="https://avatars.githubusercontent.com/vxnsin" width="30" height="30" /> | 2024-12-27 |
 
 <!--END_SECTION:users-->
 
@@ -66,6 +66,7 @@ and submit the issue.
 <!--START_SECTION:old_users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [vxnsin](https://github.com/vxnsin) | <img src="https://avatars.githubusercontent.com/vxnsin" width="30" height="30" /> | 2024-12-27 |
 | [ReneGaming5](https://github.com/ReneGaming5) | <img src="https://avatars.githubusercontent.com/ReneGaming5" width="30" height="30" /> | 2024-11-18 |
 | [LuisGot](https://github.com/LuisGot) | <img src="https://avatars.githubusercontent.com/LuisGot" width="30" height="30" /> | 2024-11-15 |
 | [Kiritosky](https://github.com/Kiritosky) | <img src="https://avatars.githubusercontent.com/Kiritosky" width="30" height="30" /> | 2024-11-14 |

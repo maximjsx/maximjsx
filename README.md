@@ -35,11 +35,11 @@ You are also welcome to join
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=5000&color=965425&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 <div align="left">
-&nbsp;<a href="https://www.spigotmc.org/resources/110500/"><img src="https://img.shields.io/spiget/downloads/110500?label=Spigot%20downloads" alt="Spigot downloads"></a>
-<a href="https://www.spigotmc.org/resources/110500/reviews"><img src="https://img.shields.io/spiget/rating/110500?label=Spigot%20rating" alt="Spigot rating"></a>
-<a href="https://bstats.org/plugin/bukkit/Fancy%20Physics/18833"><img src="https://img.shields.io/bstats/servers/18833" alt="bStats"></a><br>
-<a href="https://github.com/maximjsx/FancyPhysics">
-  <img align="center" src="https://stats.maximjsx.com/api/pin/?username=maximjsx&hide_border=false&repo=FancyPhysics&theme=forest_autumn&show_icons=true&update=7&dark_bg=3" />
+&nbsp;<a href="https://www.spigotmc.org/resources/111746/"><img src="https://img.shields.io/spiget/downloads/111746?label=Spigot%20downloads" alt="Spigot downloads"></a>
+<a href="https://www.spigotmc.org/resources/111746/reviews"><img src="https://img.shields.io/spiget/rating/111746?label=Spigot%20rating" alt="Spigot rating"></a>
+<a href="https://bstats.org/plugin/bukkit/HologramAPI/19375"><img src="https://img.shields.io/bstats/servers/19375" alt="bStats"></a><br>
+<a href="https://github.com/HologramLib/HologramLib">
+  <img align="center" src="https://stats.maximjsx.com/api/pin/?username=HologramLib&hide_border=false&repo=HologramLib&theme=forest_autumn&show_icons=true&update=7&dark_bg=3" />
 </a>
 
 <br>

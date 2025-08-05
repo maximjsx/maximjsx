@@ -54,9 +54,9 @@ and submit the issue.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [Fedox-die-Ente](https://github.com/Fedox-die-Ente) | <img src="https://avatars.githubusercontent.com/Fedox-die-Ente" width="30" height="30" /> | 2025-08-05 |
 | [raphael-goetz](https://github.com/raphael-goetz) | <img src="https://avatars.githubusercontent.com/raphael-goetz" width="30" height="30" /> | 2025-06-27 |
 | [misieur](https://github.com/misieur) | <img src="https://avatars.githubusercontent.com/misieur" width="30" height="30" /> | 2025-03-09 |
-| [theJayTea](https://github.com/theJayTea) | <img src="https://avatars.githubusercontent.com/theJayTea" width="30" height="30" /> | 2025-01-21 |
 
 <!--END_SECTION:users-->
 
@@ -66,6 +66,7 @@ and submit the issue.
 <!--START_SECTION:old_users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [theJayTea](https://github.com/theJayTea) | <img src="https://avatars.githubusercontent.com/theJayTea" width="30" height="30" /> | 2025-01-21 |
 | [SytexMC](https://github.com/SytexMC) | <img src="https://avatars.githubusercontent.com/SytexMC" width="30" height="30" /> | 2025-01-09 |
 | [vxnsin](https://github.com/vxnsin) | <img src="https://avatars.githubusercontent.com/vxnsin" width="30" height="30" /> | 2024-12-27 |
 | [ReneGaming5](https://github.com/ReneGaming5) | <img src="https://avatars.githubusercontent.com/ReneGaming5" width="30" height="30" /> | 2024-11-18 |

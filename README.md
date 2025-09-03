@@ -34,6 +34,8 @@ You are also welcome to join
 <br>
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=5000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
+https://maximjsx.com/projects/hologramlib
+
 <div align="left">
 &nbsp;<a href="https://www.spigotmc.org/resources/111746/"><img src="https://img.shields.io/spiget/downloads/111746?label=Spigot%20downloads" alt="Spigot downloads"></a>
 <a href="https://www.spigotmc.org/resources/111746/reviews"><img src="https://img.shields.io/spiget/rating/111746?label=Spigot%20rating" alt="Spigot rating"></a>

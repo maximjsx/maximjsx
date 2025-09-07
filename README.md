@@ -6,7 +6,7 @@
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=1000&pause=1000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=About+me)]()<br>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=1000&pause=1000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=About+me)]()<br>
 Hi, my name is Maxim!  
 
 I've dedicated a significant amount of time to the Minecraft modding community, especially in the plugin scene.  
@@ -22,7 +22,7 @@ You are also welcome to join
 
 <br>
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=2000&pause=3000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=Tools+%26+Languages)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=2000&pause=3000&color=33793d&vCenter=true&repeat=false&width=935&height=80&lines=Tools+%26+Languages)<br>
 | **Category**             | **Tools & Languages**                                                                                                                                                                            |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **🖼️ Design & Other Tools** | ![Photopea](https://img.shields.io/badge/Photopea-%2333793d.svg?style=for-the-badge&logo=photopea&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-%2333793d.svg?style=for-the-badge&logo=figma&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-%2333793d.svg?style=for-the-badge&logo=windows&logoColor=white) [![FIX](https://img.shields.io/badge/FIX-%2333793d.svg?style=for-the-badge&logo=python&logoColor=white)](https://github.com/maximjsx/FIX) | 
@@ -33,7 +33,7 @@ You are also welcome to join
 
 <br>
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=3000&pause=5000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
+<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=3000&pause=5000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
 https://maximjsx.com/projects/hologramlib
 
 <div align="left">
@@ -47,7 +47,7 @@ https://maximjsx.com/projects/hologramlib
 <br>
 <br>
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=4000&pause=6000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=Stick+here+forever%3F)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=4000&pause=6000&color=33793d&vCenter=true&repeat=false&width=835&height=80&lines=Stick+here+forever%3F)<br>
 Wanna stick here forever?  
 Just click [me](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
 and submit the issue.
@@ -86,27 +86,7 @@ and submit the issue.
 
 <br>
 
-<!--START_SECTION:waka-->
-**🐱 My Github Data** 
-
-> 🏆 18 Contributions in the Year 2025
- > 
-> 📦 875.4 kB Used in Github's Storage 
- > 
-> 💼 Opted to Hire
- > 
-> 📜 57 Public Repositories 
- > 
-> 🔑 56 Private Repositories  
- > 
-
- Last Updated on 04/01/2025
-<!--END_SECTION:waka-->
-
-<br>
-<br>
-
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Agbalumo&size=50&duration=6000&pause=8000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=Community+Server)<br>
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=6000&pause=8000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=Community+Server)<br>
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
 

@@ -12,7 +12,7 @@
 
 <br>
 
-You are also welcome to join
+You are also welcome to join my Discord server!!
 
 <a href="https://discord.gg/2UTkYj26B4" target="_blank">
   <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/2UTkYj26B4?style=flat" alt="Join Discord Server" style="border-radius: 15px; height: 20px;">

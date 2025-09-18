@@ -36,7 +36,7 @@ https://maximjsx.com/projects/hologramlib
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=4000&pause=6000&color=33793d&vCenter=true&repeat=false&width=835&height=80&lines=Stick+here+forever%3F)<br>
 Wanna stick ur ugly ass on my readme?  
-You just gotta click [me](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
+You just gotta [-> click this <-](https://github.com/maximjsx/maximjsx/issues/new?title=Submit%20yourself&body=Just%20press%20%27Submit%20new%20issue%27.%20You%20don%27t%20need%20to%20do%20anything%20else.%27%0AWhen%20this%20issue%20is%20closed%20by%20the%20bot,%20the%20README%20will%20be%20updated.)
 and submit the issue.
 
 ### Latest Victims

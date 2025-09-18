@@ -7,7 +7,7 @@
 ---
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=1000&pause=1000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=About+me)]()<br>
-big fan
+big fan  
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/1ef9b160-e3eb-454d-9643-d54dff554039" />
 
 

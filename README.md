@@ -28,7 +28,7 @@ https://maximjsx.com/projects/hologramlib
 <a href="https://www.spigotmc.org/resources/111746/reviews"><img src="https://img.shields.io/spiget/rating/111746?label=Spigot%20rating" alt="Spigot rating"></a>
 <a href="https://bstats.org/plugin/bukkit/HologramAPI/19375"><img src="https://img.shields.io/bstats/servers/19375" alt="bStats"></a><br>
 <a href="https://github.com/HologramLib/HologramLib">
-  <img align="center" src="https://stats.maximjsx.com/api/pin/?username=HologramLib&hide_border=false&repo=HologramLib&theme=forest&show_icons=true&update=7&dark_bg=3" />
+  <img align="center" src="https://stats.maximjsx.com/api/pin/?username=HologramLib&hide_border=false&repo=HologramLib&theme=rain&show_icons=true&update=7&dark_bg=3" />
 </a>
 
 <br>

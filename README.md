@@ -22,7 +22,7 @@ You are also welcome to join
 
 <br>
 
-<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=3000&pause=5000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=%231+Repository)](https://git.io/typing-svg)<br>
+<br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=3000&pause=5000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=%231+Hologram%20Library)](https://git.io/typing-svg)<br>
 https://maximjsx.com/projects/hologramlib
 
 <div align="left">

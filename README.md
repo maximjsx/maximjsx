@@ -69,7 +69,8 @@ and submit the issue.
 
 </details>
 <br>
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=6000&pause=8000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=Community+Server)<br>
+
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=6000&pause=8000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=Community+Server)
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
 

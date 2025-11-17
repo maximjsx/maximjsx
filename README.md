@@ -6,18 +6,12 @@
 
 ---
 
-<a href="https://laxod.com/certificates/CC-JSX999BG"><img width="2300" alt="image" src="https://github.com/user-attachments/assets/b4cbf705-985d-4d8f-9bed-5444117e6c40" /></a>
-
-<br>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=1000&pause=1000&color=33793d&vCenter=true&repeat=false&width=435&height=80&lines=About+me)]()<br>
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/041f0e0c-8a2e-493d-97ed-a6e8929e6725" />
 
 
 
 <br>
 
-You are also welcome to join my Discord server!!
+Join my Discord server!!
 
 <a href="https://discord.gg/2UTkYj26B4" target="_blank">
   <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/2UTkYj26B4?style=flat" alt="Join Discord Server" style="border-radius: 15px; height: 20px;">

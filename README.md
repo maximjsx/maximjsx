@@ -1,31 +1,18 @@
 <div align="center">
   <a href="https://github.com/maximjsx/fancy-readme-stats" target="_blank">
-<img src="https://stats.maximjsx.com/api?username=maximjsx&title=Maxim.jsx&description=Добре%20дошли&theme=forest&dark_bg=3&hide_border=false&height=230&footer=Made%20by%20Maxim.jsx%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
+<img src="https://stats.maximjsx.com/api?username=maximjsx&title=Maxim.jsx&description=Добре%20дошли&theme=forest&dark_bg=3&hide_border=false&height=130&footer=Made%20by%20Maxim.jsx%20·%20Click%20me%20to%20add%20this%20card%20to%20your%20readme%20as%20well%20😎&include_all_commits=true&update=2">
   </a>
 </div>
 
 ---
 
-
-
-
-<br>
-
-Join my Discord server!!
-
-<a href="https://discord.gg/2UTkYj26B4" target="_blank">
-  <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/2UTkYj26B4?style=flat" alt="Join Discord Server" style="border-radius: 15px; height: 20px;">
-</a>
-
 <br>
 
 <br>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=3000&pause=5000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=%231+Hologram%20Library)](https://git.io/typing-svg)<br>
-https://hologramlib.maximjsx.com<br>
+<a href="https://github.com/HologramLib/HologramLib">
+  <img align="center" src="https://stats.maximjsx.com/api/pin/?username=hologramlib&repo=hologramlib&theme=rain&dark_bg=4&show_icons=true&update=8" />
+</a>
 
-<img width="305" alt="image" src="https://github.com/user-attachments/assets/df476123-16d2-4193-9dfe-5536a06aef72" />
-
-
-<br>
 <br>
 
 <br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=4000&pause=6000&color=33793d&vCenter=true&repeat=false&width=835&height=80&lines=Stick+here+forever%3F)<br>
@@ -66,9 +53,8 @@ and submit the issue.
 <!--END_SECTION:old_users-->
 
 </details>
-<br>
 
-<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=6000&pause=8000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=Community+Server)
+<br>![Typing SVG](https://readme-typing-svg.demolab.com?font=Jersey+10&size=80&duration=6000&pause=8000&color=33793d&vCenter=true&repeat=false&width=735&height=80&lines=Community+Discord)
 
 [![DiscordBanner](https://invidget.switchblade.xyz/2UTkYj26B4)](https://discord.gg/2UTkYj26B4)
 

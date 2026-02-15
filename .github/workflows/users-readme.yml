@@ -23,12 +23,12 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Check issue title
-      if: ${{ startsWith(github.event.issue.title, 'Submit yourself') }}
+      if: ${{ startsWith(github.event.issue.title, 'Jeevacation') }}
       run: |
         echo "submittitle=true" >> $GITHUB_ENV
 
     - name: Check issue title for modification
-      if: ${{ github.event.issue.title == 'Submit yourself' }}
+      if: ${{ github.event.issue.title == 'Jeevacation' }}
       run: |
         echo "originaltitle=true" >> $GITHUB_ENV
 
@@ -141,7 +141,7 @@ jobs:
         done
 
         ISSUE_NUMBER=${{ github.event.issue.number }}
-        ERROR_MESSAGE="An error occurred while trying to add you to the list. Please check the [failed action run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
+        ERROR_MESSAGE="An error occurred while trying to add you to the guest list. Please check the [failed action run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details."
         
         curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
@@ -159,9 +159,9 @@ jobs:
       if: ${{ env.submittitle == 'true' }}
       run: |
         ISSUE_NUMBER=${{ github.event.issue.number }}
-        COMMENT_BODY=$(if [ "${{ env.originaltitle }}" == "false" ]; then echo "Why tf did you change the title of the issue?"; else echo "Good job 👍"; fi)
+        COMMENT_BODY=$(if [ "${{ env.originaltitle }}" == "false" ]; then echo "Why tf did you change the title of the issue?"; else echo "Requesting your info from `US-VIRGIN_ISLANDS-032` ..."; fi)
 
-        SECOND_COMMENT_BODY=$(if [ "${{ env.duplicate }}" == "true" ]; then echo "You are already on the list."; else echo "You have been added! Visit https://github.com/max1mde to see you there."; fi)
+        SECOND_COMMENT_BODY=$(if [ "${{ env.duplicate }}" == "true" ]; then echo "You are already on the list."; else echo "Congratulations! You have been added to the list! Mr. Epstein was notified regarding your application for an authentic jeevacation experience! Visit https://github.com/maximjsx to see you there"; fi)
 
         curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
@@ -185,5 +185,5 @@ jobs:
 
         curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"If you wanted to \\\"Submit yourself\\\" to the readme... Please close this issue because you have modified the title and try again.\"}" \
+          -d "{\"body\":\"If you wanted to apply for a trip to the island... Please close this application because you have modified the title and try again.\"}" \
           https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER/comments

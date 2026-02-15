@@ -159,7 +159,7 @@ jobs:
       if: ${{ env.submittitle == 'true' }}
       run: |
         ISSUE_NUMBER=${{ github.event.issue.number }}
-        COMMENT_BODY=$(if [ "${{ env.originaltitle }}" == "false" ]; then echo "Why tf did you change the title of the issue?"; else echo "Requesting your info from `US-VIRGIN_ISLANDS-032` ..."; fi)
+        COMMENT_BODY=$(if [ "${{ env.originaltitle }}" == "false" ]; then echo "Why tf did you change the title of the issue?"; else echo "Requesting your info from \`US-VIRGIN_ISLANDS-032\` ..."; fi)
 
         SECOND_COMMENT_BODY=$(if [ "${{ env.duplicate }}" == "true" ]; then echo "You are already on the list."; else echo "Congratulations! You have been added to the list! Mr. Epstein was notified regarding your application for an authentic jeevacation experience! Visit https://github.com/maximjsx to see you there"; fi)
 

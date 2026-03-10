@@ -24,9 +24,9 @@ and submit the application.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [bdfjohannes](https://github.com/bdfjohannes) | <img src="https://avatars.githubusercontent.com/bdfjohannes" width="30" height="30" /> | 2026-03-10 |
 | [feeeedox](https://github.com/feeeedox) | <img src="https://avatars.githubusercontent.com/feeeedox" width="30" height="30" /> | 2026-02-20 |
 | [LazyGamer21](https://github.com/LazyGamer21) | <img src="https://avatars.githubusercontent.com/LazyGamer21" width="30" height="30" /> | 2025-09-25 |
-| [julian-siebert](https://github.com/julian-siebert) | <img src="https://avatars.githubusercontent.com/julian-siebert" width="30" height="30" /> | 2025-09-22 |
 
 <!--END_SECTION:users-->
 
@@ -36,6 +36,7 @@ and submit the application.
 <!--START_SECTION:old_users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [julian-siebert](https://github.com/julian-siebert) | <img src="https://avatars.githubusercontent.com/julian-siebert" width="30" height="30" /> | 2025-09-22 |
 | [Fedox-die-Ente](https://github.com/Fedox-die-Ente) | <img src="https://avatars.githubusercontent.com/Fedox-die-Ente" width="30" height="30" /> | 2025-08-05 |
 | [raphael-goetz](https://github.com/raphael-goetz) | <img src="https://avatars.githubusercontent.com/raphael-goetz" width="30" height="30" /> | 2025-06-27 |
 | [misieur](https://github.com/misieur) | <img src="https://avatars.githubusercontent.com/misieur" width="30" height="30" /> | 2025-03-09 |

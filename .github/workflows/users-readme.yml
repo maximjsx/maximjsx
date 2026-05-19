@@ -54,7 +54,7 @@ jobs:
     - name: Update — connecting
       if: env.VALID == 'true'
       run: |
-        sleep 3
+        sleep 4
         curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
@@ -102,7 +102,7 @@ jobs:
           -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=e0a000&vCenter=true&repeat=false&width=500&height=40&lines=Passenger+already+on+manifest.)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... EXISTING RECORD FOUND\nDuplicate application rejected.\n\`\`\`\n\n---\n\n> ✅ You are already on the manifest. No need to reapply.\n\n---\n\n### Not a VIP yet?\n\nIf you have an **exclusive access code**, drop it as a comment below.\nYou will be upgraded to **⭐ VIP Guest** status with access to the island parties.\n\n> _This issue closes automatically in 2 minutes._\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
 
-    - name: Wait for code on duplicate
+    - name: Wait for code — duplicate
       if: env.VALID == 'true' && env.DUPLICATE == 'true'
       run: sleep 120
 
@@ -120,11 +120,10 @@ jobs:
     - name: Generate boarding data
       if: env.VALID == 'true' && env.DUPLICATE == 'false'
       run: |
-        sleep 4
         SEAT_NUM=$((RANDOM % 28 + 8))
         ROWS=("A" "B" "C" "D" "F")
         SEAT_ROW=${ROWS[$((RANDOM % 5))]}
-        TICKET="LSJ-$(date +%Y%m%d)-$(tr -dc 'A-Z0-9' </dev/urandom | head -c 6)"
+        TICKET="LSJ-$(date +%Y%m%d)-$(cat /dev/urandom | tr -dc 'A-Z0-9' | head -c 6; echo)"
         echo "SEAT=${SEAT_NUM}${SEAT_ROW}" >> $GITHUB_ENV
         echo "TICKET=$TICKET" >> $GITHUB_ENV
         echo "USER_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
@@ -213,7 +212,7 @@ jobs:
           echo "CODE_VALID=false" >> $GITHUB_ENV
         fi
 
-    - name: Check manifest + VIP status
+    - name: Check manifest and VIP status
       if: env.CODE_VALID == 'true'
       run: |
         USER="${{ github.event.comment.user.login }}"
@@ -282,7 +281,7 @@ jobs:
       if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'true' && env.ALREADY_VIP == 'false'
       run: |
         sleep 3
-        VIP_TICKET="LSJ-VIP-$(tr -dc 'A-Z0-9' </dev/urandom | head -c 6)"
+        VIP_TICKET="LSJ-VIP-$(cat /dev/urandom | tr -dc 'A-Z0-9' | head -c 6; echo)"
         curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \

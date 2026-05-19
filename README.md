@@ -51,7 +51,6 @@ and submit the application.
 | [chicacos](https://github.com/chicacos) | <img src="https://avatars.githubusercontent.com/chicacos" width="30" height="30" /> | 2024-11-10 |
 | [BlackDevReal](https://github.com/BlackDevReal) | <img src="https://avatars.githubusercontent.com/BlackDevReal" width="30" height="30" /> | 2024-11-10 |
 | [hallo1142](https://github.com/hallo1142) | <img src="https://avatars.githubusercontent.com/hallo1142" width="30" height="30" /> | 2024-11-10 |
-| ⭐ [maximjsx](https://github.com/maximjsx) | <img src="https://avatars.githubusercontent.com/maximjsx" width="30" height="30" /> | 2024-11-10 |
 | [Gebuildet](https://github.com/Gebuildet) | <img src="https://avatars.githubusercontent.com/Gebuildet" width="30" height="30" /> | 2024-11-10 |
 
 <!--END_SECTION:old_users-->

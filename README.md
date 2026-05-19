@@ -25,7 +25,7 @@ and submit the application.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
-| [maximjsx](https://github.com/maximjsx) | <img src="https://avatars.githubusercontent.com/maximjsx" width="30" height="30" /> | 2026-05-19 |
+| ⭐ [maximjsx](https://github.com/maximjsx) | <img src="https://avatars.githubusercontent.com/maximjsx" width="30" height="30" /> | 2026-05-19 |
 | [unemployedfemboy](https://github.com/unemployedfemboy) | <img src="https://avatars.githubusercontent.com/unemployedfemboy" width="30" height="30" /> | 2026-04-27 |
 | [bdfjohannes](https://github.com/bdfjohannes) | <img src="https://avatars.githubusercontent.com/bdfjohannes" width="30" height="30" /> | 2026-03-10 |
 

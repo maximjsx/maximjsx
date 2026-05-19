@@ -7,7 +7,10 @@ on:
     types: [created]
 
 jobs:
-  # ─── JOB 1: New issue opened ───────────────────────────────────────────────
+
+  # ─────────────────────────────────────────────
+  # JOB 1 — New issue opened
+  # ─────────────────────────────────────────────
   board-passenger:
     if: github.event_name == 'issues' && startsWith(github.event.issue.title, 'Jeevacation')
     runs-on: ubuntu-latest
@@ -30,13 +33,13 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d '{"body":"⚠️ Application rejected — issue title was modified. Please close this and resubmit with the exact title `Jeevacation`."}' \
+          -d '{"body":"## ⚠️ Application Rejected\n\nIssue title was modified. Please close this and resubmit with the exact title `Jeevacation`."}' \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
         curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}" \
-          -d '{"state":"closed"}'
+          -d '{"state":"closed","state_reason":"not_planned"}'
 
     - name: Post initial loading comment
       if: env.VALID == 'true'
@@ -44,18 +47,28 @@ jobs:
         RESP=$(curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d '{"body":"🛂 **Receiving application...**\n\n```\nVI-032 SECURE TERMINAL — L.S.J. LLC\nConnecting to US-VIRGIN-ISLANDS-032 ...\n```"}' \
+          -d '{"body":"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Receiving+application...)"}' \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments")
         echo "COMMENT_ID=$(echo $RESP | jq -r .id)" >> $GITHUB_ENV
 
-    - name: Update — identity check
+    - name: Update — connecting
+      if: env.VALID == 'true'
+      run: |
+        sleep 3
+        curl -s -X PATCH \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Connecting+to+VI-032...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nEstablishing encrypted connection ...\nHandshake with US-VIRGIN-ISLANDS-032 ... OK\nAuthenticating session ... OK\n\`\`\`\"}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
+
+    - name: Update — identity lookup
       if: env.VALID == 'true'
       run: |
         sleep 4
         curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"🛂 **Processing application...**\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nConnection established.\nQuerying passenger manifest ...\nRetrieving identity record for: ${{ github.actor }} ...\nCross-referencing with flight logs LOWW → TIST ...\n\`\`\`\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Retrieving+identity+record...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nEstablishing encrypted connection ... OK\nQuerying passenger manifest ...\nRetrieving identity record for: ${{ github.actor }} ...\nCross-referencing with Aviloop flight logs LOWW → TIST ...\n\`\`\`\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
 
     - name: Check duplicate
@@ -67,51 +80,55 @@ jobs:
           echo "DUPLICATE=false" >> $GITHUB_ENV
         fi
 
-    - name: Update — running background checks
-      if: env.VALID == 'true'
+    - name: Update — background check
+      if: env.VALID == 'true' && env.DUPLICATE == 'false'
       run: |
         sleep 4
         curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"🔍 **Running background check...**\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ...\nVerifying clearance level ...\nPinging Aviloop flight system ...\n\`\`\`\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Running+background+check...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nEstablishing encrypted connection ... OK\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... NONE FOUND\nVerifying clearance level ...\nPinging Aviloop flight reservation system ...\nSeat allocation in progress ...\n\`\`\`\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
-        sleep 4
 
-    - name: Reject duplicate
+    # ── DUPLICATE PATH ──────────────────────────────────────────────────────
+
+    - name: Update — duplicate found
+      if: env.VALID == 'true' && env.DUPLICATE == 'true'
+      run: |
+        sleep 4
+        curl -s -X PATCH \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=e0a000&vCenter=true&repeat=false&width=500&height=40&lines=Passenger+already+on+manifest.)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... EXISTING RECORD FOUND\nDuplicate application rejected.\n\`\`\`\n\n---\n\n> ✅ You are already on the manifest. No need to reapply.\n\n---\n\n### Not a VIP yet?\n\nIf you have an **exclusive access code**, drop it as a comment below.\nYou will be upgraded to **⭐ VIP Guest** status with access to the island parties.\n\n> _This issue closes automatically in 2 minutes._\"}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
+
+    - name: Wait for code on duplicate
+      if: env.VALID == 'true' && env.DUPLICATE == 'true'
+      run: sleep 120
+
+    - name: Close duplicate issue
       if: env.VALID == 'true' && env.DUPLICATE == 'true'
       run: |
         curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"🔍 **Background check complete.**\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nPassenger ${{ github.actor }} already on manifest.\nDuplicate application rejected.\n\`\`\`\n\n> You are already on the list. No need to apply again.\"}" \
-          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
-        curl -s -X PATCH \
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github+json" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}" \
-          -d '{"state":"closed"}'
+          -d '{"state":"closed","state_reason":"completed"}'
+
+    # ── FRESH PASSENGER PATH ────────────────────────────────────────────────
 
     - name: Generate boarding data
       if: env.VALID == 'true' && env.DUPLICATE == 'false'
       run: |
-        SEAT=$((RANDOM % 30 + 10))
+        sleep 4
+        SEAT_NUM=$((RANDOM % 28 + 8))
         ROWS=("A" "B" "C" "D" "F")
-        ROW=${ROWS[$((RANDOM % 5))]}
+        SEAT_ROW=${ROWS[$((RANDOM % 5))]}
         TICKET="LSJ-$(date +%Y%m%d)-$(tr -dc 'A-Z0-9' </dev/urandom | head -c 6)"
-        echo "SEAT=${SEAT}${ROW}" >> $GITHUB_ENV
+        echo "SEAT=${SEAT_NUM}${SEAT_ROW}" >> $GITHUB_ENV
         echo "TICKET=$TICKET" >> $GITHUB_ENV
         echo "USER_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
         echo "USER_AVATAR=https://avatars.githubusercontent.com/${{ github.actor }}" >> $GITHUB_ENV
-
-    - name: Update — issuing boarding pass
-      if: env.VALID == 'true' && env.DUPLICATE == 'false'
-      run: |
-        curl -s -X PATCH \
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"✅ **Clearance approved.**\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nBackground check: PASSED\nClearance level: STANDARD\nIssuing boarding pass ...\n\`\`\`\n\n---\n\n\`\`\`\n╔══════════════════════════════════════════╗\n║  ✈  JEEVACATION AIR  ·  FLIGHT VI-032   ║\n╠══════════════════════════════════════════╣\n║  PASSENGER : ${{ github.actor }}\n║  FROM      : LOWW  (Vienna Intl.)        ║\n║  TO        : TIST  (Little St. Jeff)     ║\n║  SEAT      : ${{ env.SEAT }}   CLASS: STANDARD          ║\n║  PILOT     : Nadia Marcinko              ║\n║  OPERATED  : Aviloop Charter Services   ║\n║  TICKET ID : ${{ env.TICKET }}               ║\n╚══════════════════════════════════════════╝\n\`\`\`\n\nYou have been added to the manifest. Mr. Epstein has been notified. 🏝️\n\n---\n\n> **Do you have a promo code?**\n> If you have an exclusive access code, reply to this issue with it as a comment before it closes and you will be upgraded to **VIP Guest** status with access to the island parties. 🎉\n> Otherwise, ignore this — your booking is confirmed as-is.\"}" \
-          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
 
     - name: Add user to README
       if: env.VALID == 'true' && env.DUPLICATE == 'false'
@@ -126,11 +143,17 @@ jobs:
           BEGIN { inside=0; header=0; count=0 }
           /<!--START_SECTION:users-->/ {
             print; inside=1
-            if (!header) { print "| Name | Picture | Date |"; print "| ---- | ------- | ---- |"; header=1 }
+            if (!header) {
+              print "| Name | Picture | Date |"
+              print "| ---- | ------- | ---- |"
+              header=1
+            }
             print new_row; next
           }
           inside && /^\|.*\|.*\|.*\|$/ && !/\| Name \|/ && !/\| ---- \|/ {
-            count++; if (count <= 2) print; next
+            count++
+            if (count <= 2) print
+            next
           }
           /<!--END_SECTION:users-->/ { print; inside=0; next }
           { print }
@@ -148,7 +171,16 @@ jobs:
         done
         exit 1
 
-    - name: Close issue
+    - name: Post boarding pass
+      if: env.VALID == 'true' && env.DUPLICATE == 'false'
+      run: |
+        curl -s -X PATCH \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Clearance+approved.+Issuing+boarding+pass...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nBackground check .............. PASSED\nFlight reservation ............. CONFIRMED\nSeat allocated ................. ${{ env.SEAT }}\nClearance level ................ STANDARD\n\`\`\`\n\n---\n\n\`\`\`\n╔══════════════════════════════════════════════╗\n║   ✈  JEEVACATION AIR  ·  FLIGHT VI-032      ║\n╠══════════════════════════════════════════════╣\n║   PASSENGER  :  ${{ github.actor }}\n║   FROM       :  LOWW   Vienna Intl.          ║\n║   TO         :  TIST   Little St. Jeff       ║\n║   SEAT       :  ${{ env.SEAT }}                              ║\n║   CLASS      :  STANDARD                     ║\n║   PILOT      :  Nadia Marcinko               ║\n║   OPERATED   :  Aviloop Charter Services     ║\n║   TICKET ID  :  ${{ env.TICKET }}              ║\n╚══════════════════════════════════════════════╝\n\`\`\`\n\n🏝️ You have been added to the manifest. Mr. Epstein has been notified.\n\n---\n\n### Got a promo code?\n\nIf you have an **exclusive access code**, drop it as a comment right here and you will be upgraded to **⭐ VIP Guest** status with access to the island parties. 🎉\n\nNo code? No worries — your booking is confirmed as-is.\n\n> _This issue closes in 2 minutes._\"}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.COMMENT_ID }}"
+
+    - name: Wait then close
       if: env.VALID == 'true' && env.DUPLICATE == 'false'
       run: |
         sleep 120
@@ -156,13 +188,14 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}" \
-          -d '{"state":"closed"}'
+          -d '{"state":"closed","state_reason":"completed"}'
 
-  # ─── JOB 2: Someone comments a code (on any issue, open or closed) ─────────
+  # ─────────────────────────────────────────────
+  # JOB 2 — Someone comments a code (open or closed issue)
+  # ─────────────────────────────────────────────
   check-promo-code:
     if: |
       github.event_name == 'issue_comment' &&
-      !startsWith(github.event.comment.body, 'Jeevacation') &&
       github.event.comment.user.login != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
@@ -170,9 +203,9 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    - name: Check if comment matches promo code
+    - name: Check code
       run: |
-        SECRET_CODE="LSJ1998"   # <-- change this whenever you want
+        SECRET_CODE="LSJ1998"
         COMMENT="${{ github.event.comment.body }}"
         if echo "$COMMENT" | grep -qi "$SECRET_CODE"; then
           echo "CODE_VALID=true" >> $GITHUB_ENV
@@ -180,50 +213,58 @@ jobs:
           echo "CODE_VALID=false" >> $GITHUB_ENV
         fi
 
-    - name: Check if user is on manifest
+    - name: Check manifest + VIP status
       if: env.CODE_VALID == 'true'
       run: |
-        if grep -q "\[${{ github.event.comment.user.login }}\]" README.md; then
+        USER="${{ github.event.comment.user.login }}"
+        if grep -q "\[${USER}\]" README.md; then
           echo "ON_MANIFEST=true" >> $GITHUB_ENV
         else
           echo "ON_MANIFEST=false" >> $GITHUB_ENV
         fi
-
-    - name: Check if already VIP
-      if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'true'
-      run: |
-        if grep -q "⭐ \[${{ github.event.comment.user.login }}\]" README.md; then
+        if grep -q "⭐ \[${USER}\]" README.md; then
           echo "ALREADY_VIP=true" >> $GITHUB_ENV
         else
           echo "ALREADY_VIP=false" >> $GITHUB_ENV
         fi
 
-    - name: Reject — not on manifest
+    - name: Reply — not on manifest
       if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'false'
       run: |
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d '{"body":"⚠️ Code accepted but you are not on the manifest yet. Please apply first by opening an issue titled `Jeevacation`."}' \
+          -d '{"body":"## ⚠️ Code Accepted — But You Are Not on the Manifest\n\nPlease apply first by opening an issue titled exactly `Jeevacation`.\nOnce added, you can redeem your code at any time."}' \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
-    - name: Reject — already VIP
+    - name: Reply — already VIP
       if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'true' && env.ALREADY_VIP == 'true'
       run: |
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d '{"body":"✨ You are already a VIP guest. Enjoy the parties."}' \
+          -d '{"body":"✨ You are already a **⭐ VIP Guest**. See you at the party."}' \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
-    - name: Upgrade to VIP in README
+    - name: Post upgrading comment
+      if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'true' && env.ALREADY_VIP == 'false'
+      run: |
+        RESP=$(curl -s -X POST \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github+json" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=c0a000&vCenter=true&repeat=false&width=500&height=40&lines=Verifying+access+code...)\"}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments")
+        echo "VIP_COMMENT_ID=$(echo $RESP | jq -r .id)" >> $GITHUB_ENV
+
+    - name: Upgrade README to VIP
       if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'true' && env.ALREADY_VIP == 'false'
       run: |
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
+        USER="${{ github.event.comment.user.login }}"
 
         upgrade_readme() {
-          sed -i "s/\[${{ github.event.comment.user.login }}\]/⭐ [${{ github.event.comment.user.login }}]/" README.md
+          sed -i "s/\[${USER}\]/⭐ [${USER}]/" README.md
         }
 
         for i in {1..3}; do
@@ -231,18 +272,19 @@ jobs:
           git fetch origin main; git reset --hard origin/main
           upgrade_readme
           git add README.md
-          git commit -m "Upgrade ${{ github.event.comment.user.login }} to VIP"
+          git commit -m "Upgrade ${USER} to VIP"
           git push && exit 0
           sleep $((i * 2))
         done
         exit 1
 
-    - name: Post VIP upgrade comment
+    - name: Post VIP granted comment
       if: env.CODE_VALID == 'true' && env.ON_MANIFEST == 'true' && env.ALREADY_VIP == 'false'
       run: |
-        TICKET="LSJ-VIP-$(tr -dc 'A-Z0-9' </dev/urandom | head -c 6)"
-        curl -s -X POST \
+        sleep 3
+        VIP_TICKET="LSJ-VIP-$(tr -dc 'A-Z0-9' </dev/urandom | head -c 6)"
+        curl -s -X PATCH \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"🌟 **VIP Access Granted.**\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nPromo code verified.\nUpgrading passenger ${{ github.event.comment.user.login }} ...\nClearance level: VIP GUEST\nAccess: Island Parties · Deck B · Private Beach\nNew ticket ID: $TICKET\n\`\`\`\n\nYou have been upgraded on the manifest. See you at the party. 🎉\"}" \
-          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=4000&pause=99999&color=c0a000&vCenter=true&repeat=false&width=600&height=40&lines=VIP+Access+Granted.+Welcome+aboard.)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nPromo code ..................... VERIFIED\nUpgrading passenger ${{ github.event.comment.user.login }} ...\nClearance level ................ ⭐ VIP GUEST\nAccess ......................... Island Parties · Deck B · Private Beach\nNew ticket ID .................. $VIP_TICKET\n\`\`\`\n\n---\n\n🌟 You have been upgraded on the manifest. See you at the party.\"}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments/${{ env.VIP_COMMENT_ID }}"

@@ -60,7 +60,7 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Connecting+to+VI-032...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nEstablishing encrypted connection ...\nHandshake with US-VIRGIN-ISLANDS-032 ... OK\nAuthenticating session ... OK\n\`\`\`\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Connecting+to+VI-032...)\n\n\`\`\`\nVI-032 SECURE TERMINAL L.S.J. LLC\nEstablishing encrypted connection ...\nHandshake with US-VIRGIN-ISLANDS-032 ... OK\nAuthenticating session ... OK\n\`\`\`\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
     - name: Post — identity lookup
@@ -70,7 +70,7 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Retrieving+identity+record...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nEstablishing encrypted connection ... OK\nQuerying passenger manifest ...\nRetrieving identity record for: ${{ github.actor }} ...\nCross-referencing with Aviloop flight logs LOWW → TIST ...\n\`\`\`\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Retrieving+identity+record...)\n\n\`\`\`\nVI-032 SECURE TERMINAL L.S.J. LLC\nEstablishing encrypted connection ... OK\nQuerying passenger manifest ...\nRetrieving identity record for: ${{ github.actor }} ...\nCross-referencing with Aviloop flight logs LOWW → TIST ...\n\`\`\`\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
     - name: Check duplicate
@@ -91,7 +91,7 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=e0a000&vCenter=true&repeat=false&width=500&height=40&lines=Passenger+already+on+manifest.)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... EXISTING RECORD FOUND\nDuplicate application rejected.\n\`\`\`\n\n---\n\n> ✅ You are already on the manifest. No need to reapply.\n\n---\n\n### Not a VIP yet?\n\nIf you have an **exclusive access code**, drop it as a comment below.\nYou will be upgraded to **⭐ VIP Guest** status with access to the island parties.\n\n> _This issue closes automatically in 2 minutes._\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=e0a000&vCenter=true&repeat=false&width=500&height=40&lines=Passenger+already+on+manifest.)\n\n\`\`\`\nVI-032 SECURE TERMINAL L.S.J. LLC\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... EXISTING RECORD FOUND\nDuplicate application rejected.\n\`\`\`\n\n---\n\n> ✅ You are already on the manifest. No need to reapply.\n\n---\n\n### Not a VIP yet?\n\nIf you have an **exclusive access code**, drop it as a comment below.\nYou will be upgraded to **⭐ VIP Guest** status with access to the island parties.\n\n> _This issue closes automatically in 2 minutes._\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
     - name: Wait for code — duplicate
@@ -116,7 +116,7 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Running+background+check...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nEstablishing encrypted connection ... OK\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... NONE FOUND\nVerifying clearance level ...\nPinging Aviloop flight reservation system ...\nSeat allocation in progress ...\n\`\`\`\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Running+background+check...)\n\n\`\`\`\nVI-032 SECURE TERMINAL L.S.J. LLC\nEstablishing encrypted connection ... OK\nIdentity confirmed: ${{ github.actor }}\nChecking prior bookings ... NONE FOUND\nVerifying clearance level ...\nPinging Aviloop flight reservation system ...\nSeat allocation in progress ...\n\`\`\`\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
     - name: Generate boarding data
@@ -206,7 +206,7 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Clearance+approved.+Issuing+boarding+pass...)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nBackground check .............. PASSED\nFlight reservation ............. CONFIRMED\nSeat allocated ................. ${{ env.SEAT }}\nClearance level ................ STANDARD\n\`\`\`\n\n---\n\n\`\`\`\n╔══════════════════════════════════════════════╗\n║   ✈  JEEVACATION AIR  ·  FLIGHT VI-032      ║\n╠══════════════════════════════════════════════╣\n║   PASSENGER  :  ${{ github.actor }}\n║   FROM       :  LOWW   Vienna Intl.          ║\n║   TO         :  TIST   Little St. Jeff       ║\n║   SEAT       :  ${{ env.SEAT }}                              ║\n║   CLASS      :  STANDARD                     ║\n║   PILOT      :  Nadia Marcinko               ║\n║   OPERATED   :  Aviloop Charter Services     ║\n║   TICKET ID  :  ${{ env.TICKET }}              ║\n╚══════════════════════════════════════════════╝\n\`\`\`\n\n🏝️ You have been added to the manifest. Mr. Epstein has been notified.\n\n---\n\n### Got a promo code?\n\nIf you have an **exclusive access code**, drop it as a comment right here and you will be upgraded to **⭐ VIP Guest** status with access to the island parties. 🎉\n\nNo code? No worries — your booking is confirmed as-is.\n\n> _This issue closes in 2 minutes._\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=3000&pause=99999&color=33793d&vCenter=true&repeat=false&width=500&height=40&lines=Clearance+approved.+Issuing+boarding+pass...)\n\n\`\`\`\nVI-032 SECURE TERMINAL L.S.J. LLC\nBackground check .............. PASSED\nFlight reservation ............. CONFIRMED\nSeat allocated ................. ${{ env.SEAT }}\nClearance level ................ STANDARD\n\`\`\`\n\n---\n\n\`\`\`\n╔══════════════════════════════════════════════╗\n║   ✈  JEEVACATION AIR  ·  FLIGHT VI-032      ║\n╠══════════════════════════════════════════════╣\n║   PASSENGER  :  ${{ github.actor }}\n║   FROM       :  LOWW   Vienna Intl.          ║\n║   TO         :  TIST   Little St. Jeff       ║\n║   SEAT       :  ${{ env.SEAT }}                              ║\n║   CLASS      :  STANDARD                     ║\n║   PILOT      :  Nadia Marcinko               ║\n║   OPERATED   :  Aviloop Charter Services     ║\n║   TICKET ID  :  ${{ env.TICKET }}              ║\n╚══════════════════════════════════════════════╝\n\`\`\`\n\n🏝️ You have been added to the manifest. Mr. Epstein has been notified.\n\n---\n\n### Got a promo code?\n\nIf you have an **exclusive access code**, drop it as a comment right here and you will be upgraded to **⭐ VIP Guest** status with access to the island parties. 🎉\n\nNo code? No worries! Your booking is confirmed as-is.\n\n> _This issue closes in 2 minutes._\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
     - name: Wait then close
@@ -266,7 +266,7 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d '{"body":"## ⚠️ Code Accepted — But You Are Not on the Manifest\n\nPlease apply first by opening an issue titled exactly `Jeevacation`.\nOnce added, you can redeem your code at any time."}' \
+          -d '{"body":"## ⚠️ Code Accepted! But You Are Not on the Manifest\n\nPlease apply first by opening an issue titled exactly `Jeevacation`.\nOnce added, you can redeem your code at any time."}' \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"
 
     - name: Reply — already VIP
@@ -317,5 +317,5 @@ jobs:
         curl -s -X POST \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           -H "Accept: application/vnd.github+json" \
-          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=4000&pause=99999&color=c0a000&vCenter=true&repeat=false&width=600&height=40&lines=VIP+Access+Granted.+Welcome+aboard.)\n\n\`\`\`\nVI-032 SECURE TERMINAL — L.S.J. LLC\nPromo code ..................... VERIFIED\nUpgrading passenger ${{ github.event.comment.user.login }} ...\nClearance level ................ ⭐ VIP GUEST\nAccess ......................... Island Parties · Deck B · Private Beach\nNew ticket ID .................. $VIP_TICKET\n\`\`\`\n\n---\n\n🌟 You have been upgraded on the manifest. See you at the party.\"}" \
+          -d "{\"body\":\"![](https://readme-typing-svg.demolab.com?font=Jersey+10&size=30&duration=4000&pause=99999&color=c0a000&vCenter=true&repeat=false&width=600&height=40&lines=VIP+Access+Granted.+Welcome+aboard.)\n\n\`\`\`\nVI-032 SECURE TERMINAL L.S.J. LLC\nPromo code ..................... VERIFIED\nUpgrading passenger ${{ github.event.comment.user.login }} ...\nClearance level ................ ⭐ VIP GUEST\nAccess ......................... Island Parties · Deck B · Private Beach\nNew ticket ID .................. $VIP_TICKET\n\`\`\`\n\n---\n\n🌟 You have been upgraded on the manifest. See you at the party.\"}" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments"

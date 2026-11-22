@@ -787,7 +787,7 @@ and submit the application.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
-| [tjorgef](https://github.com/tjorgef) | <img src="https://avatars.githubusercontent.com/tjorgef" width="30" height="30" /> | 2026-11-22 |
+| ⭐ [tjorgef](https://github.com/tjorgef) | <img src="https://avatars.githubusercontent.com/tjorgef" width="30" height="30" /> | 2026-11-22 |
 | ⭐ [maximjsx](https://github.com/maximjsx) | <img src="https://avatars.githubusercontent.com/maximjsx" width="30" height="30" /> | 2026-05-19 |
 | [unemployedfemboy](https://github.com/unemployedfemboy) | <img src="https://avatars.githubusercontent.com/unemployedfemboy" width="30" height="30" /> | 2026-04-27 |
 

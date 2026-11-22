@@ -787,9 +787,9 @@ and submit the application.
 <!--START_SECTION:users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [tjorgef](https://github.com/tjorgef) | <img src="https://avatars.githubusercontent.com/tjorgef" width="30" height="30" /> | 2026-11-22 |
 | ⭐ [maximjsx](https://github.com/maximjsx) | <img src="https://avatars.githubusercontent.com/maximjsx" width="30" height="30" /> | 2026-05-19 |
 | [unemployedfemboy](https://github.com/unemployedfemboy) | <img src="https://avatars.githubusercontent.com/unemployedfemboy" width="30" height="30" /> | 2026-04-27 |
-| [bdfjohannes](https://github.com/bdfjohannes) | <img src="https://avatars.githubusercontent.com/bdfjohannes" width="30" height="30" /> | 2026-03-10 |
 
 <!--END_SECTION:users-->
 
@@ -799,6 +799,7 @@ and submit the application.
 <!--START_SECTION:old_users-->
 | Name | Picture | Date |
 | ---- | ---------------- | ---- |
+| [bdfjohannes](https://github.com/bdfjohannes) | <img src="https://avatars.githubusercontent.com/bdfjohannes" width="30" height="30" /> | 2026-03-10 |
 | [feeeedox](https://github.com/feeeedox) | <img src="https://avatars.githubusercontent.com/feeeedox" width="30" height="30" /> | 2026-02-20 |
 | [LazyGamer21](https://github.com/LazyGamer21) | <img src="https://avatars.githubusercontent.com/LazyGamer21" width="30" height="30" /> | 2025-09-25 |
 | [julian-siebert](https://github.com/julian-siebert) | <img src="https://avatars.githubusercontent.com/julian-siebert" width="30" height="30" /> | 2025-09-22 |

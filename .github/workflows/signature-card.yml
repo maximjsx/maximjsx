@@ -41,11 +41,14 @@ jobs:
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
         cp assets/signature.svg /tmp/signature.svg
+        # a new url per version, otherwise browsers and camo keep showing the old card
+        VERSION=$(sha256sum /tmp/signature.svg | cut -c1-8)
 
         for i in {1..3}; do
           git fetch origin main; git reset --hard origin/main
           cp /tmp/signature.svg assets/signature.svg
-          git add assets/signature.svg
+          sed -i "s|assets/signature.svg?v=[0-9a-z]*|assets/signature.svg?v=${VERSION}|" README.md
+          git add assets/signature.svg README.md
           git commit -m "Update signature card stats"
           git push && exit 0
           sleep $((i * 2))

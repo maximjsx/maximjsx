@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/maximjsx/fancy-readme-stats" target="_blank">
-    <img src="assets/signature.svg" alt="Maxim">
+    <img src="assets/signature.svg?v=2" alt="Maxim">
   </a>
 </div>
 

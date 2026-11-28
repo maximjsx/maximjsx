@@ -1,0 +1,51 @@
+name: Signature Card
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "signature/**"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+
+    - name: Render card
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: node signature/generate.mjs
+
+    - name: Commit card
+      run: |
+        if git diff --quiet assets/signature.svg; then
+          echo "Stats unchanged"
+          exit 0
+        fi
+
+        git config --local user.name "github-actions"
+        git config --local user.email "github-actions@github.com"
+        cp assets/signature.svg /tmp/signature.svg
+
+        for i in {1..3}; do
+          git fetch origin main; git reset --hard origin/main
+          cp /tmp/signature.svg assets/signature.svg
+          git add assets/signature.svg
+          git commit -m "Update signature card stats"
+          git push && exit 0
+          sleep $((i * 2))
+        done
+        exit 1

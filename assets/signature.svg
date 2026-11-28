@@ -281,15 +281,15 @@
 
     <text class="reveal line" x="420" y="190" text-anchor="middle" fill="url(#line-ink)" style="animation-delay: 5.1s">Made by Maxim.jsx, click me to add this card to your readme as well 😎</text>
     <g class="reveal" style="animation-delay: 5.4s">
-      <text class="stat" x="148" y="252" text-anchor="middle">228</text>
+      <text class="stat" x="148" y="252" text-anchor="middle">230</text>
       <text class="label" x="148" y="270" text-anchor="middle">STARS</text>
     </g>
     <g class="reveal" style="animation-delay: 5.6s">
-      <text class="stat" x="284" y="252" text-anchor="middle">3.7k</text>
+      <text class="stat" x="284" y="252" text-anchor="middle">7.9k</text>
       <text class="label" x="284" y="270" text-anchor="middle">COMMITS</text>
     </g>
     <g class="reveal" style="animation-delay: 5.7s">
-      <text class="stat" x="420" y="252" text-anchor="middle">60</text>
+      <text class="stat" x="420" y="252" text-anchor="middle">220</text>
       <text class="label" x="420" y="270" text-anchor="middle">PULL REQUESTS</text>
     </g>
     <g class="reveal" style="animation-delay: 5.9s">
@@ -297,7 +297,7 @@
       <text class="label" x="556" y="270" text-anchor="middle">FOLLOWERS</text>
     </g>
     <g class="reveal" style="animation-delay: 6s">
-      <text class="stat" x="692" y="252" text-anchor="middle">72</text>
+      <text class="stat" x="692" y="252" text-anchor="middle">160</text>
       <text class="label" x="692" y="270" text-anchor="middle">REPOS</text>
     </g>
 

@@ -24,6 +24,7 @@ const DOT_DELAY = 100;
 const DROP_MS = 1340;
 const SHINE_DELAY = 150;
 const SHINE_MS = 2300;
+const RISE_MS = 1400;
 
 const LIGHT = "rgb(255 244 222)";
 const light = (alpha) => `rgb(255 244 222 / ${alpha})`;
@@ -56,36 +57,41 @@ function random(seed) {
   return () => (seed = (seed * 16807) % 2147483647) / 2147483647;
 }
 
+// only a token owned by the user itself can see private repos and their PRs, the actions token cannot
+const PRIVATE_TOKEN = process.env.STATS_TOKEN;
+const TOKEN = PRIVATE_TOKEN || process.env.GITHUB_TOKEN;
+
 async function github(path) {
   const headers = { Accept: "application/vnd.github+json", "User-Agent": "signature-card" };
-  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
   const res = await fetch(`https://api.github.com${path}`, { headers, signal: AbortSignal.timeout(15000) });
   if (!res.ok) throw new Error(`${path}: ${res.status} ${await res.text()}`);
   return res.json();
 }
 
-async function fetchStars() {
-  let stars = 0;
+async function fetchRepos() {
+  const path = PRIVATE_TOKEN ? "/user/repos?affiliation=owner&visibility=all" : `/users/${USERNAME}/repos?type=owner`;
+  const repos = [];
   for (let page = 1; ; page++) {
-    const repos = await github(`/users/${USERNAME}/repos?per_page=100&type=owner&page=${page}`);
-    stars += repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
-    if (repos.length < 100) return stars;
+    const batch = await github(`${path}&per_page=100&page=${page}`);
+    repos.push(...batch);
+    if (batch.length < 100) return repos;
   }
 }
 
 async function fetchStats() {
-  const [user, stars, commits, prs] = await Promise.all([
+  const [user, repos, commits, prs] = await Promise.all([
     github(`/users/${USERNAME}`),
-    fetchStars(),
+    fetchRepos(),
     github(`/search/commits?q=author:${USERNAME}&per_page=1`),
     github(`/search/issues?q=author:${USERNAME}+type:pr&per_page=1`),
   ]);
   return [
-    { label: "STARS", value: stars },
+    { label: "STARS", value: repos.reduce((sum, repo) => sum + repo.stargazers_count, 0) },
     { label: "COMMITS", value: commits.total_count },
     { label: "PULL REQUESTS", value: prs.total_count },
     { label: "FOLLOWERS", value: user.followers },
-    { label: "REPOS", value: user.public_repos },
+    { label: "REPOS", value: repos.length },
   ];
 }
 
@@ -114,21 +120,26 @@ function timeline(letters) {
   return { initial, written, drop: dropLetter.drops[0], writeEnd: cursor, dropStart, finished };
 }
 
-// the M starts centered on its own and the word pulls it left while it is written, like ur.contact
-function slideKeyframes(initial, allInk, writeEnd) {
+// the M starts centered on its own and the word pulls it left while it is written, like ur.contact.
+// it only rises to make room once the stats come in
+function slideKeyframes(initial, allInk, writeEnd, riseStart) {
   const m = bbox(initial.ink);
   const wordRight = Math.max(...allInk.map((d) => bbox(d).x1));
-  const startY = H / 2 - (SIG_Y + ((m.y0 + m.y1) / 2) * SCALE);
-  const total = WRITE_START + writeEnd;
-  const frames = [`0% { transform: translate(${r(W / 2 - (SIG_X + ((m.x0 + m.x1) / 2) * SCALE))}px, ${r(startY)}px); }`];
+  const centerX = (right) => r(W / 2 - (SIG_X + ((m.x0 + right) / 2) * SCALE));
+  const startY = r(H / 2 - (SIG_Y + ((m.y0 + m.y1) / 2) * SCALE));
+  const riseEnd = WRITE_START + riseStart + RISE_MS;
+  const pct = (ms) => r((ms / riseEnd) * 100);
+
+  const frames = [`0% { transform: translate(${centerX(m.x1)}px, ${startY}px); }`];
   for (let i = 0; i <= 12; i++) {
-    const grown = easeInOut(i / 12);
-    const right = mix(m.x1, wordRight, grown);
-    const x = W / 2 - (SIG_X + ((m.x0 + right) / 2) * SCALE);
-    const pct = r(((WRITE_START + (writeEnd * i) / 12) / total) * 100);
-    frames.push(`${pct}% { transform: translate(${r(x)}px, ${r(startY * (1 - grown))}px); }`);
+    const right = mix(m.x1, wordRight, easeInOut(i / 12));
+    frames.push(`${pct(WRITE_START + (writeEnd * i) / 12)}% { transform: translate(${centerX(right)}px, ${startY}px); }`);
   }
-  return { css: frames.join("\n      "), duration: total };
+  frames.push(
+    `${pct(WRITE_START + riseStart)}% { transform: translate(${centerX(wordRight)}px, ${startY}px); animation-timing-function: cubic-bezier(.6, 0, .2, 1); }`,
+    `100% { transform: translate(${centerX(wordRight)}px, 0); }`,
+  );
+  return { css: frames.join("\n      "), duration: riseEnd };
 }
 
 function starLayer(rand, { count, minR, maxR, minO, maxO, twinkle, cool }) {
@@ -188,13 +199,14 @@ function statsRow(stats, revealAt) {
 function render(letters, stats) {
   const t = timeline(letters);
   const allInk = [t.initial.ink, ...t.written.map((l) => l.ink)];
-  const slide = slideKeyframes(t.initial, allInk, t.writeEnd);
   const mCenter = bbox(t.initial.ink);
   const halo = { x: r((mCenter.x0 + mCenter.x1) / 2), y: r((mCenter.y0 + mCenter.y1) / 2) };
   const dropBox = bbox(t.drop);
   const anchor = { x: r((dropBox.x0 + dropBox.x1) / 2), y: r(dropBox.y1) };
   const shineStart = t.finished + SHINE_DELAY;
-  const litStart = t.finished + 450;
+  const riseStart = t.finished + 500;
+  const litStart = riseStart + 500;
+  const slide = slideKeyframes(t.initial, allInk, t.writeEnd, riseStart);
   const strokes = t.written.flatMap((l) => l.strokes);
 
   const masks = t.written
@@ -451,8 +463,8 @@ function render(letters, stats) {
     <rect class="pool" x="${W / 2 - 300}" y="${LAMP_Y - 180}" width="600" height="180" fill="url(#pool-light)"/>
     <rect class="lamp" x="${W / 2 - 210}" y="${LAMP_Y}" width="420" height="1" fill="url(#lamp-light)"/>
 
-    <text class="reveal line" x="${W / 2}" y="${LINE_Y}" text-anchor="middle" fill="url(#line-ink)" style="animation-delay: ${at(litStart + 700)}">made by maxim.jsx <tspan fill="#6a655d" font-family="Geist Mono, monospace">·</tspan> add this card to your readme as well</text>
-    ${statsRow(stats, litStart + 1500)}
+    <text class="reveal line" x="${W / 2}" y="${LINE_Y}" text-anchor="middle" fill="url(#line-ink)" style="animation-delay: ${at(litStart + 400)}">Made by Maxim.jsx, click me to add this card to your readme as well 😎</text>
+    ${statsRow(stats, litStart + 700)}
 
     <rect class="grain" x="-${W / 2}" y="-${H / 2}" width="${W * 2}" height="${H * 2}" filter="url(#noise)" opacity=".035"/>
   </g>

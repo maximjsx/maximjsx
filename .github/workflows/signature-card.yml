@@ -27,6 +27,7 @@ jobs:
     - name: Render card
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
       run: node signature/generate.mjs
 
     - name: Commit card

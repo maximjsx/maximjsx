@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "signature/**"
+      - ".github/workflows/signature-card.yml"
 
 jobs:
   render:
@@ -27,7 +28,7 @@ jobs:
     - name: Render card
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        STATS_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GH_TOKEN }}
       run: node signature/generate.mjs
 
     - name: Commit card
